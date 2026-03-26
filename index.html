@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diagnóstico PAES M1 · Formulario final v1</title>
+  <script>
+    window.ITEMS = [{"id": "M1_001", "pregunta_numero": 1, "eje": "Números", "habilidad": "Resolver problemas", "dificultad": "fácil", "tipo_render": "solo_texto", "contexto": "Compra en feria", "stem_text": "En una feria, un jugo cuesta $1.250. Si Camila compra 4 jugos y paga con un billete de $10.000, ¿cuánto dinero recibe de vuelto?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Operaciones con enteros y decimales en contexto", "correcta": "B", "options": [{"key": "A", "text": "$4.500", "latex": "", "image": ""}, {"key": "B", "text": "$5.000", "latex": "", "image": ""}, {"key": "C", "text": "$5.500", "latex": "", "image": ""}, {"key": "D", "text": "$6.000", "latex": "", "image": ""}]}, {"id": "M1_002", "pregunta_numero": 2, "eje": "Números", "habilidad": "Representar", "dificultad": "fácil", "tipo_render": "texto_latex", "contexto": "Fracciones equivalentes", "stem_text": "¿Cuál de las siguientes fracciones es equivalente a", "stem_latex": "\\frac{3}{4}\\, ?", "imagen": "", "imagen_nombre": "", "subfoco": "Fracciones equivalentes y comparación", "correcta": "A", "options": [{"key": "A", "text": "", "latex": "\\frac{6}{8}", "image": ""}, {"key": "B", "text": "", "latex": "\\frac{9}{16}", "image": ""}, {"key": "C", "text": "", "latex": "\\frac{12}{20}", "image": ""}, {"key": "D", "text": "", "latex": "\\frac{15}{24}", "image": ""}]}, {"id": "M1_003", "pregunta_numero": 3, "eje": "Álgebra y funciones", "habilidad": "Resolver problemas", "dificultad": "fácil", "tipo_render": "texto_latex", "contexto": "Evaluación directa", "stem_text": "Si", "stem_latex": "x=3\\text{, ¿cuál es el valor de }2x+5\\, ?", "imagen": "", "imagen_nombre": "", "subfoco": "Evaluación de expresiones lineales", "correcta": "B", "options": [{"key": "A", "text": "", "latex": "8", "image": ""}, {"key": "B", "text": "", "latex": "11", "image": ""}, {"key": "C", "text": "", "latex": "13", "image": ""}, {"key": "D", "text": "", "latex": "16", "image": ""}]}, {"id": "M1_004", "pregunta_numero": 4, "eje": "Geometría", "habilidad": "Representar", "dificultad": "fácil", "tipo_render": "texto_figura", "contexto": "Rectángulo simple", "stem_text": "Según la figura, se muestra un rectángulo de base 7 cm y altura 3 cm. ¿Cuál es su perímetro?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiB2aWV3Qm94PSIwIDAgODAwIDQ1MCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+Cgo8cmVjdCB4PSIxODAiIHk9IjEyMCIgd2lkdGg9IjQyMCIgaGVpZ2h0PSIxODAiIGNsYXNzPSJsaW5lIi8+Cjx0ZXh0IHg9IjM5MCIgeT0iMzM1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPjcgY208L3RleHQ+Cjx0ZXh0IHg9IjEzNSIgeT0iMjIwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiIHRyYW5zZm9ybT0icm90YXRlKC05MCAxMzUgMjIwKSI+MyBjbTwvdGV4dD4KCjwvc3ZnPg==", "imagen_nombre": "M1_004_rectangulo_7x3.svg", "subfoco": "Perímetro de figuras simples", "correcta": "C", "options": [{"key": "A", "text": "10 cm", "latex": "", "image": ""}, {"key": "B", "text": "14 cm", "latex": "", "image": ""}, {"key": "C", "text": "20 cm", "latex": "", "image": ""}, {"key": "D", "text": "21 cm", "latex": "", "image": ""}]}, {"id": "M1_005", "pregunta_numero": 5, "eje": "Números", "habilidad": "Resolver problemas", "dificultad": "media", "tipo_render": "solo_texto", "contexto": "Descuento porcentual", "stem_text": "Una polera cuesta $20.000 y tiene un 15% de descuento. ¿Cuál es el precio final de la polera?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Porcentajes directos en contexto cotidiano", "correcta": "B", "options": [{"key": "A", "text": "$3.000", "latex": "", "image": ""}, {"key": "B", "text": "$17.000", "latex": "", "image": ""}, {"key": "C", "text": "$18.500", "latex": "", "image": ""}, {"key": "D", "text": "$15.000", "latex": "", "image": ""}]}, {"id": "M1_006", "pregunta_numero": 6, "eje": "Probabilidad y estadística", "habilidad": "Representar", "dificultad": "fácil", "tipo_render": "texto_figura", "contexto": "Tabla de frecuencias", "stem_text": "La tabla muestra la cantidad de libros leídos por un grupo de estudiantes durante un mes. ¿Cuántos estudiantes leyeron 2 libros?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiB2aWV3Qm94PSIwIDAgODAwIDQ1MCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+Cgo8cmVjdCB4PSIxNzAiIHk9IjgwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjcwIiBjbGFzcz0idGFibGVoZWFkIi8+CjxyZWN0IHg9IjM5MCIgeT0iODAiIHdpZHRoPSIyNDAiIGhlaWdodD0iNzAiIGNsYXNzPSJ0YWJsZWhlYWQiLz4KPHRleHQgeD0iMjgwIiB5PSIxMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+TGlicm9zPC90ZXh0Pgo8dGV4dCB4PSI1MTAiIHk9IjEyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj5Fc3R1ZGlhbnRlczwvdGV4dD4KCjxyZWN0IHg9IjE3MCIgeT0iMTUwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjYwIiBjbGFzcz0idGFibGVjZWxsIi8+CjxyZWN0IHg9IjM5MCIgeT0iMTUwIiB3aWR0aD0iMjQwIiBoZWlnaHQ9IjYwIiBjbGFzcz0idGFibGVjZWxsIi8+Cjx0ZXh0IHg9IjI4MCIgeT0iMTg4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPjA8L3RleHQ+Cjx0ZXh0IHg9IjUxMCIgeT0iMTg4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPjQ8L3RleHQ+Cgo8cmVjdCB4PSIxNzAiIHk9IjIxMCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSI2MCIgY2xhc3M9InRhYmxlY2VsbCIvPgo8cmVjdCB4PSIzOTAiIHk9IjIxMCIgd2lkdGg9IjI0MCIgaGVpZ2h0PSI2MCIgY2xhc3M9InRhYmxlY2VsbCIvPgo8dGV4dCB4PSIyODAiIHk9IjI0OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj4xPC90ZXh0Pgo8dGV4dCB4PSI1MTAiIHk9IjI0OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj43PC90ZXh0PgoKPHJlY3QgeD0iMTcwIiB5PSIyNzAiIHdpZHRoPSIyMjAiIGhlaWdodD0iNjAiIGNsYXNzPSJ0YWJsZWNlbGwiLz4KPHJlY3QgeD0iMzkwIiB5PSIyNzAiIHdpZHRoPSIyNDAiIGhlaWdodD0iNjAiIGNsYXNzPSJ0YWJsZWNlbGwiLz4KPHRleHQgeD0iMjgwIiB5PSIzMDgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+MjwvdGV4dD4KPHRleHQgeD0iNTEwIiB5PSIzMDgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+NTwvdGV4dD4KCjxyZWN0IHg9IjE3MCIgeT0iMzMwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjYwIiBjbGFzcz0idGFibGVjZWxsIi8+CjxyZWN0IHg9IjM5MCIgeT0iMzMwIiB3aWR0aD0iMjQwIiBoZWlnaHQ9IjYwIiBjbGFzcz0idGFibGVjZWxsIi8+Cjx0ZXh0IHg9IjI4MCIgeT0iMzY4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPjM8L3RleHQ+Cjx0ZXh0IHg9IjUxMCIgeT0iMzY4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPjQ8L3RleHQ+Cgo8L3N2Zz4=", "imagen_nombre": "M1_006_tabla_libros.svg", "subfoco": "Lectura de tabla simple de frecuencias", "correcta": "A", "options": [{"key": "A", "text": "5", "latex": "", "image": ""}, {"key": "B", "text": "4", "latex": "", "image": ""}, {"key": "C", "text": "7", "latex": "", "image": ""}, {"key": "D", "text": "6", "latex": "", "image": ""}]}, {"id": "M1_007", "pregunta_numero": 7, "eje": "Álgebra y funciones", "habilidad": "Resolver problemas", "dificultad": "fácil", "tipo_render": "texto_latex", "contexto": "Ecuación lineal simple", "stem_text": "¿Cuál es la solución de la ecuación", "stem_latex": "x-7=12\\, ?", "imagen": "", "imagen_nombre": "", "subfoco": "Ecuación lineal de una etapa", "correcta": "B", "options": [{"key": "A", "text": "", "latex": "5", "image": ""}, {"key": "B", "text": "", "latex": "19", "image": ""}, {"key": "C", "text": "", "latex": "-19", "image": ""}, {"key": "D", "text": "", "latex": "84", "image": ""}]}, {"id": "M1_008", "pregunta_numero": 8, "eje": "Geometría", "habilidad": "Representar", "dificultad": "media", "tipo_render": "texto_figura", "contexto": "Ángulos suplementarios", "stem_text": "En la figura, dos ángulos adyacentes sobre una recta miden x y 110°. ¿Cuál es el valor de x?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiB2aWV3Qm94PSIwIDAgODAwIDQyMCI+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IndoaXRlIi8+CjxzdHlsZT4KLmxpbmV7c3Ryb2tlOiMxMTE7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7ZmlsbDpub25lfQoubGFiZWx7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7Zm9udC1zaXplOjM0cHg7ZmlsbDojMTExO2ZvbnQtd2VpZ2h0OjcwMH0KLnNtYWxse2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2ZvbnQtc2l6ZTozMHB4O2ZpbGw6IzExMX0KPC9zdHlsZT4KPGxpbmUgeDE9IjExMCIgeTE9IjIxMCIgeDI9IjY5MCIgeTI9IjIxMCIgY2xhc3M9ImxpbmUiLz4KPGxpbmUgeDE9IjQwMCIgeTE9IjIxMCIgeDI9IjI2MCIgeTI9IjkwIiBjbGFzcz0ibGluZSIvPgo8Y2lyY2xlIGN4PSI0MDAiIGN5PSIyMTAiIHI9IjUiIGZpbGw9IiMxMTEiLz4KPHRleHQgeD0iMzAwIiB5PSIxNzUiIGNsYXNzPSJsYWJlbCI+eDwvdGV4dD4KPHRleHQgeD0iNDcwIiB5PSIxNzUiIGNsYXNzPSJsYWJlbCI+MTEwwrA8L3RleHQ+Cjwvc3ZnPg==", "imagen_nombre": "M1_008_angulos_suplementarios_limpio.svg", "subfoco": "Ángulos en figuras básicas", "correcta": "B", "options": [{"key": "A", "text": "60°", "latex": "", "image": ""}, {"key": "B", "text": "70°", "latex": "", "image": ""}, {"key": "C", "text": "90°", "latex": "", "image": ""}, {"key": "D", "text": "110°", "latex": "", "image": ""}]}, {"id": "M1_009", "pregunta_numero": 9, "eje": "Números", "habilidad": "Modelar", "dificultad": "fácil", "tipo_render": "solo_texto", "contexto": "Razón directa", "stem_text": "Para preparar jugo se mezclan 2 cucharadas de polvo por cada 5 vasos de agua. ¿Cuántas cucharadas se necesitan para 15 vasos de agua?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Razón y proporción directa", "correcta": "B", "options": [{"key": "A", "text": "5", "latex": "", "image": ""}, {"key": "B", "text": "6", "latex": "", "image": ""}, {"key": "C", "text": "7", "latex": "", "image": ""}, {"key": "D", "text": "8", "latex": "", "image": ""}]}, {"id": "M1_010", "pregunta_numero": 10, "eje": "Álgebra y funciones", "habilidad": "Representar", "dificultad": "fácil", "tipo_render": "texto_latex", "contexto": "Patrón aditivo simple", "stem_text": "La secuencia", "stem_latex": "4,\\ 7,\\ 10,\\ 13,\\ \\ldots", "imagen": "", "imagen_nombre": "", "subfoco": "Patrones y generalización inicial", "correcta": "A", "options": [{"key": "A", "text": "", "latex": "3n+1", "image": ""}, {"key": "B", "text": "", "latex": "4n-1", "image": ""}, {"key": "C", "text": "", "latex": "3n+4", "image": ""}, {"key": "D", "text": "", "latex": "n+3", "image": ""}]}, {"id": "M1_011", "pregunta_numero": 11, "eje": "Álgebra y funciones", "habilidad": "Representar", "dificultad": "fácil", "tipo_render": "texto_figura", "contexto": "Tabla de valores", "stem_text": "La tabla muestra algunos valores de una función lineal. ¿Cuál es la expresión de la función?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiB2aWV3Qm94PSIwIDAgODAwIDQ1MCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+Cgo8cmVjdCB4PSIyMjAiIHk9IjgwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjcwIiBjbGFzcz0idGFibGVoZWFkIi8+CjxyZWN0IHg9IjM2MCIgeT0iODAiIHdpZHRoPSIyMjAiIGhlaWdodD0iNzAiIGNsYXNzPSJ0YWJsZWhlYWQiLz4KPHRleHQgeD0iMjkwIiB5PSIxMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+eDwvdGV4dD4KPHRleHQgeD0iNDcwIiB5PSIxMjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+eTwvdGV4dD4KCjxyZWN0IHg9IjIyMCIgeT0iMTUwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjYwIiBjbGFzcz0idGFibGVjZWxsIi8+CjxyZWN0IHg9IjM2MCIgeT0iMTUwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjYwIiBjbGFzcz0idGFibGVjZWxsIi8+Cjx0ZXh0IHg9IjI5MCIgeT0iMTg4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPjA8L3RleHQ+Cjx0ZXh0IHg9IjQ3MCIgeT0iMTg4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPjE8L3RleHQ+Cgo8cmVjdCB4PSIyMjAiIHk9IjIxMCIgd2lkdGg9IjE0MCIgaGVpZ2h0PSI2MCIgY2xhc3M9InRhYmxlY2VsbCIvPgo8cmVjdCB4PSIzNjAiIHk9IjIxMCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSI2MCIgY2xhc3M9InRhYmxlY2VsbCIvPgo8dGV4dCB4PSIyOTAiIHk9IjI0OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj4xPC90ZXh0Pgo8dGV4dCB4PSI0NzAiIHk9IjI0OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj4zPC90ZXh0PgoKPHJlY3QgeD0iMjIwIiB5PSIyNzAiIHdpZHRoPSIxNDAiIGhlaWdodD0iNjAiIGNsYXNzPSJ0YWJsZWNlbGwiLz4KPHJlY3QgeD0iMzYwIiB5PSIyNzAiIHdpZHRoPSIyMjAiIGhlaWdodD0iNjAiIGNsYXNzPSJ0YWJsZWNlbGwiLz4KPHRleHQgeD0iMjkwIiB5PSIzMDgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+MjwvdGV4dD4KPHRleHQgeD0iNDcwIiB5PSIzMDgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCI+NTwvdGV4dD4KCjxyZWN0IHg9IjIyMCIgeT0iMzMwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjYwIiBjbGFzcz0idGFibGVjZWxsIi8+CjxyZWN0IHg9IjM2MCIgeT0iMzMwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjYwIiBjbGFzcz0idGFibGVjZWxsIi8+Cjx0ZXh0IHg9IjI5MCIgeT0iMzY4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPjM8L3RleHQ+Cjx0ZXh0IHg9IjQ3MCIgeT0iMzY4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ibGFiZWwiPjc8L3RleHQ+Cgo8L3N2Zz4=", "imagen_nombre": "M1_011_tabla_funcion.svg", "subfoco": "Interpretación de función lineal en tabla", "correcta": "A", "options": [{"key": "A", "text": "", "latex": "2x+1", "image": ""}, {"key": "B", "text": "", "latex": "x+2", "image": ""}, {"key": "C", "text": "", "latex": "2x-1", "image": ""}, {"key": "D", "text": "", "latex": "3x+1", "image": ""}]}, {"id": "M1_012", "pregunta_numero": 12, "eje": "Números", "habilidad": "Resolver problemas", "dificultad": "fácil", "tipo_render": "solo_texto", "contexto": "Escala en mapa", "stem_text": "En un mapa, 1 cm representa 5 km. Si la distancia entre dos ciudades en el mapa es de 7 cm, ¿cuál es la distancia real entre ellas?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Razones y escalas", "correcta": "B", "options": [{"key": "A", "text": "12 km", "latex": "", "image": ""}, {"key": "B", "text": "35 km", "latex": "", "image": ""}, {"key": "C", "text": "40 km", "latex": "", "image": ""}, {"key": "D", "text": "70 km", "latex": "", "image": ""}]}, {"id": "M1_013", "pregunta_numero": 13, "eje": "Probabilidad y estadística", "habilidad": "Resolver problemas", "dificultad": "fácil", "tipo_render": "solo_texto", "contexto": "Promedio de puntajes", "stem_text": "En cuatro controles, Martina obtuvo 5,0; 6,0; 4,0 y 7,0. ¿Cuál es su promedio?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Promedio aritmético en contexto", "correcta": "B", "options": [{"key": "A", "text": "5,0", "latex": "", "image": ""}, {"key": "B", "text": "5,5", "latex": "", "image": ""}, {"key": "C", "text": "5,8", "latex": "", "image": ""}, {"key": "D", "text": "6,0", "latex": "", "image": ""}]}, {"id": "M1_014", "pregunta_numero": 14, "eje": "Geometría", "habilidad": "Resolver problemas", "dificultad": "fácil", "tipo_render": "texto_figura", "contexto": "Área de figura compuesta", "stem_text": "La figura está formada por dos rectángulos adosados de igual altura. ¿Cuál es el área total de la figura?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiB2aWV3Qm94PSIwIDAgODAwIDQyMCI+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IndoaXRlIi8+CjxzdHlsZT4KLmxpbmV7c3Ryb2tlOiMxMTE7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO2ZpbGw6bm9uZX0KLmxhYmVse2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2ZvbnQtc2l6ZTozMHB4O2ZpbGw6IzExMTtmb250LXdlaWdodDo3MDB9Cjwvc3R5bGU+CjxyZWN0IHg9IjE4MCIgeT0iMTIwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjE2MCIgY2xhc3M9ImxpbmUiLz4KPHJlY3QgeD0iMzgwIiB5PSIxMjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTYwIiBjbGFzcz0ibGluZSIvPgo8dGV4dCB4PSIyODAiIHk9IjEwNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj40IGNtPC90ZXh0Pgo8dGV4dCB4PSI0MzAiIHk9IjEwNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj4yIGNtPC90ZXh0Pgo8dGV4dCB4PSIxNTUiIHk9IjIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIiB0cmFuc2Zvcm09InJvdGF0ZSgtOTAgMTU1IDIxMCkiPjQgY208L3RleHQ+Cjwvc3ZnPg==", "imagen_nombre": "M1_014_area_compuesta_limpia.svg", "subfoco": "Área de rectángulos y figuras compuestas simples", "correcta": "D", "options": [{"key": "A", "text": "18 cm²", "latex": "", "image": ""}, {"key": "B", "text": "20 cm²", "latex": "", "image": ""}, {"key": "C", "text": "22 cm²", "latex": "", "image": ""}, {"key": "D", "text": "24 cm²", "latex": "", "image": ""}]}, {"id": "M1_015", "pregunta_numero": 15, "eje": "Álgebra y funciones", "habilidad": "Resolver problemas", "dificultad": "media", "tipo_render": "texto_latex", "contexto": "Ecuación con fracción", "stem_text": "¿Cuál es la solución de la ecuación", "stem_latex": "\\frac{x}{4}+3=5\\, ?", "imagen": "", "imagen_nombre": "", "subfoco": "Ecuaciones con fracciones", "correcta": "C", "options": [{"key": "A", "text": "", "latex": "4", "image": ""}, {"key": "B", "text": "", "latex": "6", "image": ""}, {"key": "C", "text": "", "latex": "8", "image": ""}, {"key": "D", "text": "", "latex": "12", "image": ""}]}, {"id": "M1_016", "pregunta_numero": 16, "eje": "Probabilidad y estadística", "habilidad": "Argumentar", "dificultad": "media", "tipo_render": "texto_figura", "contexto": "Comparación en gráfico de barras", "stem_text": "El gráfico muestra la cantidad de botellas recicladas por cuatro cursos en una semana. ¿Qué afirmación es correcta?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+CjxsaW5lIHgxPSIxMTAiIHkxPSI0MDAiIHgyPSIxMTAiIHkyPSIxMjAiIGNsYXNzPSJheGlzIi8+PGxpbmUgeDE9IjExMCIgeTE9IjQwMCIgeDI9IjY3MCIgeTI9IjQwMCIgY2xhc3M9ImF4aXMiLz48bGluZSB4MT0iMTEwIiB5MT0iNDAwLjAiIHgyPSI2NzAiIHkyPSI0MDAuMCIgY2xhc3M9ImdyaWQiLz48dGV4dCB4PSI5MCIgeT0iNDA3LjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+MDwvdGV4dD48bGluZSB4MT0iMTEwIiB5MT0iMzMwLjAiIHgyPSI2NzAiIHkyPSIzMzAuMCIgY2xhc3M9ImdyaWQiLz48dGV4dCB4PSI5MCIgeT0iMzM3LjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+MTA8L3RleHQ+PGxpbmUgeDE9IjExMCIgeTE9IjI2MC4wIiB4Mj0iNjcwIiB5Mj0iMjYwLjAiIGNsYXNzPSJncmlkIi8+PHRleHQgeD0iOTAiIHk9IjI2Ny4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBjbGFzcz0ic21hbGwiPjIwPC90ZXh0PjxsaW5lIHgxPSIxMTAiIHkxPSIxOTAuMCIgeDI9IjY3MCIgeTI9IjE5MC4wIiBjbGFzcz0iZ3JpZCIvPjx0ZXh0IHg9IjkwIiB5PSIxOTcuMCIgdGV4dC1hbmNob3I9ImVuZCIgY2xhc3M9InNtYWxsIj4zMDwvdGV4dD48bGluZSB4MT0iMTEwIiB5MT0iMTIwLjAiIHgyPSI2NzAiIHkyPSIxMjAuMCIgY2xhc3M9ImdyaWQiLz48dGV4dCB4PSI5MCIgeT0iMTI3LjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+NDA8L3RleHQ+PHJlY3QgeD0iMTUwLjAiIHk9IjI2MC4wIiB3aWR0aD0iOTAuMCIgaGVpZ2h0PSIxNDAuMCIgY2xhc3M9ImJhciIvPjx0ZXh0IHg9IjE5NS4wIiB5PSI0MzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+N8KwQTwvdGV4dD48dGV4dCB4PSIxOTUuMCIgeT0iMjUwLjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+MjA8L3RleHQ+PHJlY3QgeD0iMjgwLjAiIHk9IjE1NS4wIiB3aWR0aD0iOTAuMCIgaGVpZ2h0PSIyNDUuMCIgY2xhc3M9ImJhciIvPjx0ZXh0IHg9IjMyNS4wIiB5PSI0MzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+N8KwQjwvdGV4dD48dGV4dCB4PSIzMjUuMCIgeT0iMTQ1LjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+MzU8L3RleHQ+PHJlY3QgeD0iNDEwLjAiIHk9IjE5MC4wIiB3aWR0aD0iOTAuMCIgaGVpZ2h0PSIyMTAuMCIgY2xhc3M9ImJhciIvPjx0ZXh0IHg9IjQ1NS4wIiB5PSI0MzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+OMKwQTwvdGV4dD48dGV4dCB4PSI0NTUuMCIgeT0iMTgwLjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+MzA8L3RleHQ+PHJlY3QgeD0iNTQwLjAiIHk9IjIyNS4wIiB3aWR0aD0iOTAuMCIgaGVpZ2h0PSIxNzUuMCIgY2xhc3M9ImJhciIvPjx0ZXh0IHg9IjU4NS4wIiB5PSI0MzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+OMKwQjwvdGV4dD48dGV4dCB4PSI1ODUuMCIgeT0iMjE1LjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+MjU8L3RleHQ+Cjwvc3ZnPg==", "imagen_nombre": "M1_016_barras_reciclaje.svg", "subfoco": "Lectura de gráfico de barras", "correcta": "C", "options": [{"key": "A", "text": "El curso 7°A recicló el doble que el curso 7°C.", "latex": "", "image": ""}, {"key": "B", "text": "El curso 7°B recicló menos que el curso 7°D.", "latex": "", "image": ""}, {"key": "C", "text": "El curso 7°D recicló más botellas que el curso 7°A.", "latex": "", "image": ""}, {"key": "D", "text": "Los cursos 7°C y 7°D reciclaron la misma cantidad.", "latex": "", "image": ""}]}, {"id": "M1_017", "pregunta_numero": 17, "eje": "Números", "habilidad": "Modelar", "dificultad": "media", "tipo_render": "solo_texto", "contexto": "Descuento sucesivo", "stem_text": "Una tienda aplica dos descuentos sucesivos a un producto de $40.000: primero 10% y luego 20% sobre el precio ya rebajado. ¿Cuál es el precio final?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Porcentaje de cambio y descuento sucesivo", "correcta": "B", "options": [{"key": "A", "text": "$28.000", "latex": "", "image": ""}, {"key": "B", "text": "$28.800", "latex": "", "image": ""}, {"key": "C", "text": "$30.000", "latex": "", "image": ""}, {"key": "D", "text": "$32.000", "latex": "", "image": ""}]}, {"id": "M1_018", "pregunta_numero": 18, "eje": "Álgebra y funciones", "habilidad": "Resolver problemas", "dificultad": "media", "tipo_render": "texto_latex", "contexto": "Sistema simple", "stem_text": "¿Cuál es la solución del sistema", "stem_latex": "\\begin{cases}x+y=10\\\\x-y=2\\end{cases}", "imagen": "", "imagen_nombre": "", "subfoco": "Sistema simple por reemplazo o comparación", "correcta": "A", "options": [{"key": "A", "text": "", "latex": "(6,4)", "image": ""}, {"key": "B", "text": "", "latex": "(4,6)", "image": ""}, {"key": "C", "text": "", "latex": "(5,5)", "image": ""}, {"key": "D", "text": "", "latex": "(8,2)", "image": ""}]}, {"id": "M1_019", "pregunta_numero": 19, "eje": "Álgebra y funciones", "habilidad": "Modelar", "dificultad": "media", "tipo_render": "texto_latex", "contexto": "Costo fijo y variable", "stem_text": "Un servicio de reparto cobra una tarifa fija de $1.500 más $800 por cada kilómetro recorrido. ¿Cuál expresión representa el costo total C al recorrer k kilómetros?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Modelación lineal desde contexto verbal", "correcta": "B", "options": [{"key": "A", "text": "", "latex": "C=1500k+800", "image": ""}, {"key": "B", "text": "", "latex": "C=800k+1500", "image": ""}, {"key": "C", "text": "", "latex": "C=1500+800", "image": ""}, {"key": "D", "text": "", "latex": "C=2300k", "image": ""}]}, {"id": "M1_020", "pregunta_numero": 20, "eje": "Probabilidad y estadística", "habilidad": "Representar", "dificultad": "media", "tipo_render": "texto_figura", "contexto": "Comparación de datos en gráfico", "stem_text": "El gráfico compara la cantidad de asistentes a un taller en cuatro meses. ¿En qué mes hubo exactamente 10 asistentes más que en abril?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDcwIiB2aWV3Qm94PSIwIDAgODAwIDQ3MCI+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IndoaXRlIi8+CjxzdHlsZT4KLmF4aXN7c3Ryb2tlOiMxMTE7c3Ryb2tlLXdpZHRoOjQ7ZmlsbDpub25lfQouYmFye2ZpbGw6IzIyMjtzdHJva2U6IzExMTtzdHJva2Utd2lkdGg6Mn0KLmxhYmVse2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToyNHB4O2ZpbGw6IzExMTtmb250LXdlaWdodDo3MDB9Ci5zbWFsbHtmb250LWZhbWlseTpBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZjtmb250LXNpemU6MjJweDtmaWxsOiMxMTF9Ci5ncmlke3N0cm9rZTojODg4O3N0cm9rZS13aWR0aDoxO29wYWNpdHk6LjN9Cjwvc3R5bGU+CjxsaW5lIHgxPSIxMTAiIHkxPSIzOTAiIHgyPSI3MDAiIHkyPSIzOTAiIGNsYXNzPSJheGlzIi8+CjxsaW5lIHgxPSIxMTAiIHkxPSIzOTAiIHgyPSIxMTAiIHkyPSI4MCIgY2xhc3M9ImF4aXMiLz4KPGcgY2xhc3M9ImdyaWQiPgo8bGluZSB4MT0iMTEwIiB5MT0iMzMwIiB4Mj0iNzAwIiB5Mj0iMzMwIi8+CjxsaW5lIHgxPSIxMTAiIHkxPSIyNzAiIHgyPSI3MDAiIHkyPSIyNzAiLz4KPGxpbmUgeDE9IjExMCIgeTE9IjIxMCIgeDI9IjcwMCIgeTI9IjIxMCIvPgo8bGluZSB4MT0iMTEwIiB5MT0iMTUwIiB4Mj0iNzAwIiB5Mj0iMTUwIi8+CjwvZz4KPHRleHQgeD0iODgiIHk9IjM5NiIgY2xhc3M9InNtYWxsIj4wPC90ZXh0Pgo8dGV4dCB4PSI3OCIgeT0iMzM2IiBjbGFzcz0ic21hbGwiPjEwPC90ZXh0Pgo8dGV4dCB4PSI3OCIgeT0iMjc2IiBjbGFzcz0ic21hbGwiPjIwPC90ZXh0Pgo8dGV4dCB4PSI3OCIgeT0iMjE2IiBjbGFzcz0ic21hbGwiPjMwPC90ZXh0Pgo8dGV4dCB4PSI3OCIgeT0iMTU2IiBjbGFzcz0ic21hbGwiPjQwPC90ZXh0Pgo8cmVjdCB4PSIxNjAiIHk9IjMxOCIgd2lkdGg9IjgwIiBoZWlnaHQ9IjcyIiBjbGFzcz0iYmFyIi8+CjxyZWN0IHg9IjMwMCIgeT0iMzAwIiB3aWR0aD0iODAiIGhlaWdodD0iOTAiIGNsYXNzPSJiYXIiLz4KPHJlY3QgeD0iNDQwIiB5PSIyMTAiIHdpZHRoPSI4MCIgaGVpZ2h0PSIxODAiIGNsYXNzPSJiYXIiLz4KPHJlY3QgeD0iNTgwIiB5PSIxNzQiIHdpZHRoPSI4MCIgaGVpZ2h0PSIyMTYiIGNsYXNzPSJiYXIiLz4KPHRleHQgeD0iMjAwIiB5PSI0MjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+TWFyem88L3RleHQ+Cjx0ZXh0IHg9IjM0MCIgeT0iNDIyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPkFicmlsPC90ZXh0Pgo8dGV4dCB4PSI0ODAiIHk9IjQyMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj5NYXlvPC90ZXh0Pgo8dGV4dCB4PSI2MjAiIHk9IjQyMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj5KdW5pbzwvdGV4dD4KPC9zdmc+", "imagen_nombre": "M1_020_barras_meses_espanol.svg", "subfoco": "Interpretación de gráfico y comparación de datos", "correcta": "D", "options": [{"key": "A", "text": "Enero", "latex": "", "image": ""}, {"key": "B", "text": "Febrero", "latex": "", "image": ""}, {"key": "C", "text": "Marzo", "latex": "", "image": ""}, {"key": "D", "text": "Mayo", "latex": "", "image": ""}]}, {"id": "M1_021", "pregunta_numero": 21, "eje": "Geometría", "habilidad": "Resolver problemas", "dificultad": "media", "tipo_render": "texto_latex_figura", "contexto": "Triángulo rectángulo", "stem_text": "Según la figura, un triángulo rectángulo tiene catetos de 6 cm y 8 cm. ¿Cuál es la medida de la hipotenusa?", "stem_latex": "a^2+b^2=c^2", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiB2aWV3Qm94PSIwIDAgODAwIDQ1MCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+Cgo8cG9seWdvbiBwb2ludHM9IjE4MCwzMjAgMTgwLDE0MCA0MjAsMzIwIiBjbGFzcz0ibGluZSIvPgo8cGF0aCBkPSJNMTgwIDI5MCBMMjEwIDI5MCBMMjEwIDMyMCIgY2xhc3M9InRoaW4iLz4KPHRleHQgeD0iMTU1IiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCIgdHJhbnNmb3JtPSJyb3RhdGUoLTkwIDE1NSAyMzUpIj44IGNtPC90ZXh0Pgo8dGV4dCB4PSIzMDAiIHk9IjM1MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj42IGNtPC90ZXh0PgoKPC9zdmc+", "imagen_nombre": "M1_021_triangulo_rectangulo.svg", "subfoco": "Triángulo rectángulo y relaciones métricas básicas", "correcta": "C", "options": [{"key": "A", "text": "8 cm", "latex": "", "image": ""}, {"key": "B", "text": "9 cm", "latex": "", "image": ""}, {"key": "C", "text": "10 cm", "latex": "", "image": ""}, {"key": "D", "text": "12 cm", "latex": "", "image": ""}]}, {"id": "M1_022", "pregunta_numero": 22, "eje": "Álgebra y funciones", "habilidad": "Resolver problemas", "dificultad": "media", "tipo_render": "texto_latex", "contexto": "Factorización básica", "stem_text": "¿Cuál de las siguientes expresiones es equivalente a", "stem_latex": "x^2+5x+6\\, ?", "imagen": "", "imagen_nombre": "", "subfoco": "B", "correcta": "B", "options": [{"key": "A", "text": "", "latex": "(x+1)(x+6)", "image": ""}, {"key": "B", "text": "", "latex": "(x+2)(x+3)", "image": ""}, {"key": "C", "text": "", "latex": "(x-2)(x-3)", "image": ""}, {"key": "D", "text": "", "latex": "(x+3)^2", "image": ""}]}, {"id": "M1_023", "pregunta_numero": 23, "eje": "Números", "habilidad": "Argumentar", "dificultad": "media", "tipo_render": "solo_texto", "contexto": "Orden de magnitud", "stem_text": "Sin calcular exactamente, ¿cuál es la mejor estimación para el valor de 198 × 51?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Aproximaciones y orden de magnitud", "correcta": "B", "options": [{"key": "A", "text": "$1.000", "latex": "", "image": ""}, {"key": "B", "text": "$10.000", "latex": "", "image": ""}, {"key": "C", "text": "$20.000", "latex": "", "image": ""}, {"key": "D", "text": "$100.000", "latex": "", "image": ""}]}, {"id": "M1_024", "pregunta_numero": 24, "eje": "Probabilidad y estadística", "habilidad": "Resolver problemas", "dificultad": "media", "tipo_render": "texto_figura", "contexto": "Experimento equiprobable", "stem_text": "Una ruleta tiene 8 sectores iguales: 3 rojos, 2 azules, 2 verdes y 1 amarillo. Si se gira una vez, ¿cuál es la probabilidad de obtener azul o verde?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+CjxjaXJjbGUgY3g9IjQwMCIgY3k9IjI0MCIgcj0iMTUwIiBjbGFzcz0ibGluZSIvPjxwYXRoIGQ9Ik00MDAgMjQwIEw0MDAuMCA5MC4wIEExNTAgMTUwIDAgMCAxIDUwNi4xIDEzMy45IFoiIGZpbGw9IiNjNjI4MjgiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHRleHQgeD0iNDM2LjQiIHk9IjE1Mi4yIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiIGZpbGw9IndoaXRlIj5Sb2pvPC90ZXh0PjxwYXRoIGQ9Ik00MDAgMjQwIEw1MDYuMSAxMzMuOSBBMTUwIDE1MCAwIDAgMSA1NTAuMCAyNDAuMCBaIiBmaWxsPSIjYzYyODI4IiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjQ4Ny44IiB5PSIyMDMuNiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIiBmaWxsPSJ3aGl0ZSI+Um9qbzwvdGV4dD48cGF0aCBkPSJNNDAwIDI0MCBMNTUwLjAgMjQwLjAgQTE1MCAxNTAgMCAwIDEgNTA2LjEgMzQ2LjEgWiIgZmlsbD0iI2M2MjgyOCIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSI0ODcuOCIgeT0iMjc2LjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCIgZmlsbD0id2hpdGUiPlJvam88L3RleHQ+PHBhdGggZD0iTTQwMCAyNDAgTDUwNi4xIDM0Ni4xIEExNTAgMTUwIDAgMCAxIDQwMC4wIDM5MC4wIFoiIGZpbGw9IiMxNTY1YzAiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PHRleHQgeD0iNDM2LjQiIHk9IjMyNy44IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiIGZpbGw9IndoaXRlIj5BenVsPC90ZXh0PjxwYXRoIGQ9Ik00MDAgMjQwIEw0MDAuMCAzOTAuMCBBMTUwIDE1MCAwIDAgMSAyOTMuOSAzNDYuMSBaIiBmaWxsPSIjMTU2NWMwIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjM2My42IiB5PSIzMjcuOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIiBmaWxsPSJ3aGl0ZSI+QXp1bDwvdGV4dD48cGF0aCBkPSJNNDAwIDI0MCBMMjkzLjkgMzQ2LjEgQTE1MCAxNTAgMCAwIDEgMjUwLjAgMjQwLjAgWiIgZmlsbD0iIzJlN2QzMiIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSIzMTIuMiIgeT0iMjc2LjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCIgZmlsbD0id2hpdGUiPlZlcmRlPC90ZXh0PjxwYXRoIGQ9Ik00MDAgMjQwIEwyNTAuMCAyNDAuMCBBMTUwIDE1MCAwIDAgMSAyOTMuOSAxMzMuOSBaIiBmaWxsPSIjMmU3ZDMyIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjMxMi4yIiB5PSIyMDMuNiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIiBmaWxsPSJ3aGl0ZSI+VmVyZGU8L3RleHQ+PHBhdGggZD0iTTQwMCAyNDAgTDI5My45IDEzMy45IEExNTAgMTUwIDAgMCAxIDQwMC4wIDkwLjAgWiIgZmlsbD0iI2Y5YTgyNSIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSIzNjMuNiIgeT0iMTUyLjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCIgZmlsbD0id2hpdGUiPkFtYXJpbGxvPC90ZXh0PjxjaXJjbGUgY3g9IjQwMCIgY3k9IjI0MCIgcj0iOCIgZmlsbD0iIzExMSIvPgo8L3N2Zz4=", "imagen_nombre": "M1_024_ruleta_8_sectores.svg", "subfoco": "", "correcta": "C", "options": [{"key": "A", "text": "", "latex": "\\frac{1}{8}", "image": ""}, {"key": "B", "text": "", "latex": "\\frac{2}{8}", "image": ""}, {"key": "C", "text": "", "latex": "\\frac{4}{8}", "image": ""}, {"key": "D", "text": "", "latex": "\\frac{5}{8}", "image": ""}]}, {"id": "M1_025", "pregunta_numero": 25, "eje": "Álgebra y funciones", "habilidad": "Representar", "dificultad": "media", "tipo_render": "texto_latex_figura", "contexto": "Gráfico de función lineal", "stem_text": "Según el gráfico de la función lineal, la recta pasa por los puntos (0, 2) y (3, 8). ¿Cuál es el valor de", "stem_latex": "f(2)\\, ?", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MjAiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgODIwIDQ4MCI+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IndoaXRlIi8+CjxzdHlsZT4KLmF4aXN7c3Ryb2tlOiMxMTE7c3Ryb2tlLXdpZHRoOjQ7ZmlsbDpub25lfQoubGluZXtzdHJva2U6IzExMTtzdHJva2Utd2lkdGg6NDtmaWxsOm5vbmV9Ci5wdHtmaWxsOiMxMTF9Ci5sYWJlbHtmb250LWZhbWlseTpBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZjtmb250LXNpemU6MjRweDtmaWxsOiMxMTE7Zm9udC13ZWlnaHQ6NzAwfQouc21hbGx7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7Zm9udC1zaXplOjIycHg7ZmlsbDojMTExfQouZ3JpZHtzdHJva2U6Izg4ODtzdHJva2Utd2lkdGg6MTtvcGFjaXR5Oi4yOH0KPC9zdHlsZT4KPGxpbmUgeDE9IjExMCIgeTE9IjQwMCIgeDI9IjcwMCIgeTI9IjQwMCIgY2xhc3M9ImF4aXMiLz4KPGxpbmUgeDE9IjExMCIgeTE9IjQwMCIgeDI9IjExMCIgeTI9IjgwIiBjbGFzcz0iYXhpcyIvPgo8ZyBjbGFzcz0iZ3JpZCI+CjxsaW5lIHgxPSIxMTAiIHkxPSIzMjAiIHgyPSI3MDAiIHkyPSIzMjAiLz4KPGxpbmUgeDE9IjExMCIgeTE9IjI0MCIgeDI9IjcwMCIgeTI9IjI0MCIvPgo8bGluZSB4MT0iMTEwIiB5MT0iMTYwIiB4Mj0iNzAwIiB5Mj0iMTYwIi8+CjxsaW5lIHgxPSIxMTAiIHkxPSI4MCIgeDI9IjcwMCIgeTI9IjgwIi8+CjxsaW5lIHgxPSIyNjAiIHkxPSI4MCIgeDI9IjI2MCIgeTI9IjQwMCIvPgo8bGluZSB4MT0iNDEwIiB5MT0iODAiIHgyPSI0MTAiIHkyPSI0MDAiLz4KPGxpbmUgeDE9IjU2MCIgeTE9IjgwIiB4Mj0iNTYwIiB5Mj0iNDAwIi8+CjxsaW5lIHgxPSI3MDAiIHkxPSI4MCIgeDI9IjcwMCIgeTI9IjQwMCIvPgo8L2c+Cjx0ZXh0IHg9Ijg4IiB5PSI0MDYiIGNsYXNzPSJzbWFsbCI+MDwvdGV4dD4KPHRleHQgeD0iMjUyIiB5PSI0MzAiIGNsYXNzPSJzbWFsbCI+MTwvdGV4dD4KPHRleHQgeD0iNDAyIiB5PSI0MzAiIGNsYXNzPSJzbWFsbCI+MjwvdGV4dD4KPHRleHQgeD0iNTUyIiB5PSI0MzAiIGNsYXNzPSJzbWFsbCI+MzwvdGV4dD4KPHRleHQgeD0iNjkyIiB5PSI0MzAiIGNsYXNzPSJzbWFsbCI+NDwvdGV4dD4KPHRleHQgeD0iODQiIHk9IjMyNiIgY2xhc3M9InNtYWxsIj4yPC90ZXh0Pgo8dGV4dCB4PSI4NCIgeT0iMjQ2IiBjbGFzcz0ic21hbGwiPjQ8L3RleHQ+Cjx0ZXh0IHg9Ijg0IiB5PSIxNjYiIGNsYXNzPSJzbWFsbCI+NjwvdGV4dD4KPHRleHQgeD0iODQiIHk9Ijg2IiBjbGFzcz0ic21hbGwiPjg8L3RleHQ+CjxsaW5lIHgxPSIxMTAiIHkxPSIzMjAiIHgyPSI1NjAiIHkyPSI4MCIgY2xhc3M9ImxpbmUiLz4KPGNpcmNsZSBjeD0iMTEwIiBjeT0iMzIwIiByPSI2IiBjbGFzcz0icHQiLz4KPGNpcmNsZSBjeD0iNTYwIiBjeT0iODAiIHI9IjYiIGNsYXNzPSJwdCIvPgo8dGV4dCB4PSIxNDUiIHk9IjMwMCIgY2xhc3M9ImxhYmVsIj4oMCwyKTwvdGV4dD4KPHRleHQgeD0iNTkwIiB5PSIxMDUiIGNsYXNzPSJsYWJlbCI+KDMsOCk8L3RleHQ+Cjwvc3ZnPg==", "imagen_nombre": "M1_025_recta_puntos_legible.svg", "subfoco": "8", "correcta": "C", "options": [{"key": "A", "text": "", "latex": "4", "image": ""}, {"key": "B", "text": "", "latex": "5", "image": ""}, {"key": "C", "text": "", "latex": "6", "image": ""}, {"key": "D", "text": "", "latex": "7", "image": ""}]}, {"id": "M1_026", "pregunta_numero": 26, "eje": "Geometría", "habilidad": "Modelar", "dificultad": "desafiante", "tipo_render": "texto_figura", "contexto": "Traslación en el plano cartesiano", "stem_text": "El triángulo de vértices A(1,1), B(4,1) y C(1,3) se traslada 2 unidades a la derecha y 1 unidad hacia arriba. ¿Cuáles son las coordenadas del punto C después de la traslación?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+CjxsaW5lIHgxPSIxMTAuMCIgeTE9IjQwMC4wIiB4Mj0iMTEwLjAiIHkyPSI4MC4wIiBjbGFzcz0iZ3JpZCIvPjxsaW5lIHgxPSIyMDMuMzMzMzMzMzMzMzMzMzEiIHkxPSI0MDAuMCIgeDI9IjIwMy4zMzMzMzMzMzMzMzMzMSIgeTI9IjgwLjAiIGNsYXNzPSJncmlkIi8+PGxpbmUgeDE9IjI5Ni42NjY2NjY2NjY2NjY2MyIgeTE9IjQwMC4wIiB4Mj0iMjk2LjY2NjY2NjY2NjY2NjYzIiB5Mj0iODAuMCIgY2xhc3M9ImdyaWQiLz48bGluZSB4MT0iMzkwLjAiIHkxPSI0MDAuMCIgeDI9IjM5MC4wIiB5Mj0iODAuMCIgY2xhc3M9ImdyaWQiLz48bGluZSB4MT0iNDgzLjMzMzMzMzMzMzMzMzMiIHkxPSI0MDAuMCIgeDI9IjQ4My4zMzMzMzMzMzMzMzMzIiB5Mj0iODAuMCIgY2xhc3M9ImdyaWQiLz48bGluZSB4MT0iNTc2LjY2NjY2NjY2NjY2NjciIHkxPSI0MDAuMCIgeDI9IjU3Ni42NjY2NjY2NjY2NjY3IiB5Mj0iODAuMCIgY2xhc3M9ImdyaWQiLz48bGluZSB4MT0iNjcwLjAiIHkxPSI0MDAuMCIgeDI9IjY3MC4wIiB5Mj0iODAuMCIgY2xhc3M9ImdyaWQiLz48bGluZSB4MT0iMTEwLjAiIHkxPSI0MDAuMCIgeDI9IjY3MC4wIiB5Mj0iNDAwLjAiIGNsYXNzPSJncmlkIi8+PGxpbmUgeDE9IjExMC4wIiB5MT0iMzM2LjAiIHgyPSI2NzAuMCIgeTI9IjMzNi4wIiBjbGFzcz0iZ3JpZCIvPjxsaW5lIHgxPSIxMTAuMCIgeTE9IjI3Mi4wIiB4Mj0iNjcwLjAiIHkyPSIyNzIuMCIgY2xhc3M9ImdyaWQiLz48bGluZSB4MT0iMTEwLjAiIHkxPSIyMDguMCIgeDI9IjY3MC4wIiB5Mj0iMjA4LjAiIGNsYXNzPSJncmlkIi8+PGxpbmUgeDE9IjExMC4wIiB5MT0iMTQ0LjAiIHgyPSI2NzAuMCIgeTI9IjE0NC4wIiBjbGFzcz0iZ3JpZCIvPjxsaW5lIHgxPSIxMTAuMCIgeTE9IjgwLjAiIHgyPSI2NzAuMCIgeTI9IjgwLjAiIGNsYXNzPSJncmlkIi8+PGxpbmUgeDE9IjExMC4wIiB5MT0iNDAwLjAiIHgyPSI2NzAuMCIgeTI9IjQwMC4wIiBjbGFzcz0iYXhpcyIvPjxsaW5lIHgxPSIxMTAuMCIgeTE9IjQwMC4wIiB4Mj0iMTEwLjAiIHkyPSI4MC4wIiBjbGFzcz0iYXhpcyIvPjxwb2x5Z29uIHBvaW50cz0iMjAzLjMzMzMzMzMzMzMzMzMxLDMzNi4wIDQ4My4zMzMzMzMzMzMzMzMzLDMzNi4wIDIwMy4zMzMzMzMzMzMzMzMzMSwyMDguMCIgY2xhc3M9ImxpbmUiLz48Y2lyY2xlIGN4PSIyMDMuMzMzMzMzMzMzMzMzMzEiIGN5PSIzMzYuMCIgcj0iNSIgY2xhc3M9InB0Ii8+PHRleHQgeD0iMjExLjMzMzMzMzMzMzMzMzMxIiB5PSIzMjguMCIgY2xhc3M9InNtYWxsIj5BKDEsIDEpPC90ZXh0PjxjaXJjbGUgY3g9IjQ4My4zMzMzMzMzMzMzMzMzIiBjeT0iMzM2LjAiIHI9IjUiIGNsYXNzPSJwdCIvPjx0ZXh0IHg9IjQ5MS4zMzMzMzMzMzMzMzMzIiB5PSIzMjguMCIgY2xhc3M9InNtYWxsIj5CKDQsIDEpPC90ZXh0PjxjaXJjbGUgY3g9IjIwMy4zMzMzMzMzMzMzMzMzMSIgY3k9IjIwOC4wIiByPSI1IiBjbGFzcz0icHQiLz48dGV4dCB4PSIyMTEuMzMzMzMzMzMzMzMzMzEiIHk9IjIwMC4wIiBjbGFzcz0ic21hbGwiPkMoMSwgMyk8L3RleHQ+PHRleHQgeD0iMTEwLjAiIHk9IjQyNi4wIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPjA8L3RleHQ+PHRleHQgeD0iMjAzLjMzMzMzMzMzMzMzMzMxIiB5PSI0MjYuMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj4xPC90ZXh0Pjx0ZXh0IHg9IjI5Ni42NjY2NjY2NjY2NjY2MyIgeT0iNDI2LjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+MjwvdGV4dD48dGV4dCB4PSIzOTAuMCIgeT0iNDI2LjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+MzwvdGV4dD48dGV4dCB4PSI0ODMuMzMzMzMzMzMzMzMzMyIgeT0iNDI2LjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+NDwvdGV4dD48dGV4dCB4PSI1NzYuNjY2NjY2NjY2NjY2NyIgeT0iNDI2LjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+NTwvdGV4dD48dGV4dCB4PSI2NzAuMCIgeT0iNDI2LjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+NjwvdGV4dD48dGV4dCB4PSI5NC4wIiB5PSIzNDIuMCIgdGV4dC1hbmNob3I9ImVuZCIgY2xhc3M9InNtYWxsIj4xPC90ZXh0Pjx0ZXh0IHg9Ijk0LjAiIHk9IjI3OC4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBjbGFzcz0ic21hbGwiPjI8L3RleHQ+PHRleHQgeD0iOTQuMCIgeT0iMjE0LjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+MzwvdGV4dD48dGV4dCB4PSI5NC4wIiB5PSIxNTAuMCIgdGV4dC1hbmNob3I9ImVuZCIgY2xhc3M9InNtYWxsIj40PC90ZXh0Pjx0ZXh0IHg9Ijk0LjAiIHk9Ijg2LjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+NTwvdGV4dD4KPC9zdmc+", "imagen_nombre": "M1_026_traslacion_plano.svg", "subfoco": "Geometría en coordenadas o transformación simple", "correcta": "A", "options": [{"key": "A", "text": "(3,4)", "latex": "", "image": ""}, {"key": "B", "text": "(2,4)", "latex": "", "image": ""}, {"key": "C", "text": "(3,2)", "latex": "", "image": ""}, {"key": "D", "text": "(4,3)", "latex": "", "image": ""}]}, {"id": "M1_027", "pregunta_numero": 27, "eje": "Números", "habilidad": "Resolver problemas", "dificultad": "media", "tipo_render": "solo_texto", "contexto": "Proporcionalidad inversa", "stem_text": "Si 6 trabajadores tardan 8 días en pintar una fachada, y todos trabajan al mismo ritmo, ¿cuántos días tardarán 12 trabajadores en hacer el mismo trabajo?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Proporcionalidad inversa o comparación de tasas", "correcta": "B", "options": [{"key": "A", "text": "2 días", "latex": "", "image": ""}, {"key": "B", "text": "4 días", "latex": "", "image": ""}, {"key": "C", "text": "8 días", "latex": "", "image": ""}, {"key": "D", "text": "16 días", "latex": "", "image": ""}]}, {"id": "M1_028", "pregunta_numero": 28, "eje": "Probabilidad y estadística", "habilidad": "Argumentar", "dificultad": "media", "tipo_render": "texto_figura", "contexto": "Frecuencia relativa", "stem_text": "En una encuesta a 200 estudiantes sobre medio de transporte al colegio, 80 respondieron bus, 60 caminando, 40 bicicleta y 20 auto. ¿Cuál de las siguientes afirmaciones es correcta?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+CjxsaW5lIHgxPSIxMTAiIHkxPSI0MDAiIHgyPSIxMTAiIHkyPSIxMjAiIGNsYXNzPSJheGlzIi8+PGxpbmUgeDE9IjExMCIgeTE9IjQwMCIgeDI9IjY3MCIgeTI9IjQwMCIgY2xhc3M9ImF4aXMiLz48bGluZSB4MT0iMTEwIiB5MT0iNDAwLjAiIHgyPSI2NzAiIHkyPSI0MDAuMCIgY2xhc3M9ImdyaWQiLz48dGV4dCB4PSI5MCIgeT0iNDA3LjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+MDwvdGV4dD48bGluZSB4MT0iMTEwIiB5MT0iMzQ0LjAiIHgyPSI2NzAiIHkyPSIzNDQuMCIgY2xhc3M9ImdyaWQiLz48dGV4dCB4PSI5MCIgeT0iMzUxLjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+MjA8L3RleHQ+PGxpbmUgeDE9IjExMCIgeTE9IjI4OC4wIiB4Mj0iNjcwIiB5Mj0iMjg4LjAiIGNsYXNzPSJncmlkIi8+PHRleHQgeD0iOTAiIHk9IjI5NS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBjbGFzcz0ic21hbGwiPjQwPC90ZXh0PjxsaW5lIHgxPSIxMTAiIHkxPSIyMzIuMCIgeDI9IjY3MCIgeTI9IjIzMi4wIiBjbGFzcz0iZ3JpZCIvPjx0ZXh0IHg9IjkwIiB5PSIyMzkuMCIgdGV4dC1hbmNob3I9ImVuZCIgY2xhc3M9InNtYWxsIj42MDwvdGV4dD48bGluZSB4MT0iMTEwIiB5MT0iMTc2LjAiIHgyPSI2NzAiIHkyPSIxNzYuMCIgY2xhc3M9ImdyaWQiLz48dGV4dCB4PSI5MCIgeT0iMTgzLjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+ODA8L3RleHQ+PGxpbmUgeDE9IjExMCIgeTE9IjEyMC4wIiB4Mj0iNjcwIiB5Mj0iMTIwLjAiIGNsYXNzPSJncmlkIi8+PHRleHQgeD0iOTAiIHk9IjEyNy4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBjbGFzcz0ic21hbGwiPjEwMDwvdGV4dD48cmVjdCB4PSIxNTAuMCIgeT0iMTc2LjAiIHdpZHRoPSI5MC4wIiBoZWlnaHQ9IjIyNC4wIiBjbGFzcz0iYmFyIi8+PHRleHQgeD0iMTk1LjAiIHk9IjQzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj5CdXM8L3RleHQ+PHRleHQgeD0iMTk1LjAiIHk9IjE2Ni4wIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPjgwPC90ZXh0PjxyZWN0IHg9IjI4MC4wIiB5PSIyMzIuMCIgd2lkdGg9IjkwLjAiIGhlaWdodD0iMTY4LjAiIGNsYXNzPSJiYXIiLz48dGV4dCB4PSIzMjUuMCIgeT0iNDM1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPkNhbWluYW5kbzwvdGV4dD48dGV4dCB4PSIzMjUuMCIgeT0iMjIyLjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+NjA8L3RleHQ+PHJlY3QgeD0iNDEwLjAiIHk9IjI4OC4wIiB3aWR0aD0iOTAuMCIgaGVpZ2h0PSIxMTIuMCIgY2xhc3M9ImJhciIvPjx0ZXh0IHg9IjQ1NS4wIiB5PSI0MzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+QmljaWNsZXRhPC90ZXh0Pjx0ZXh0IHg9IjQ1NS4wIiB5PSIyNzguMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj40MDwvdGV4dD48cmVjdCB4PSI1NDAuMCIgeT0iMzQ0LjAiIHdpZHRoPSI5MC4wIiBoZWlnaHQ9IjU2LjAiIGNsYXNzPSJiYXIiLz48dGV4dCB4PSI1ODUuMCIgeT0iNDM1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPkF1dG88L3RleHQ+PHRleHQgeD0iNTg1LjAiIHk9IjMzNC4wIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPjIwPC90ZXh0Pgo8L3N2Zz4=", "imagen_nombre": "M1_028_transporte_barras.svg", "subfoco": "Frecuencia relativa e interpretación de datos", "correcta": "B", "options": [{"key": "A", "text": "La frecuencia relativa de “caminando” es 20%.", "latex": "", "image": ""}, {"key": "B", "text": "La frecuencia relativa de “caminando” es 30%.", "latex": "", "image": ""}, {"key": "C", "text": "La frecuencia relativa de “bicicleta” es 30%.", "latex": "", "image": ""}, {"key": "D", "text": "La frecuencia relativa de “auto” es 20%.", "latex": "", "image": ""}]}, {"id": "M1_029", "pregunta_numero": 29, "eje": "Álgebra y funciones", "habilidad": "Argumentar", "dificultad": "desafiante", "tipo_render": "texto_latex", "contexto": "Inecuación y análisis de soluciones", "stem_text": "¿Cuál es el conjunto solución de la inecuación", "stem_latex": "2x-3>7\\ \\text{ y }\\ x\\leq 6\\, ?", "imagen": "", "imagen_nombre": "", "subfoco": "(-\\infty,6]", "correcta": "A", "options": [{"key": "A", "text": "", "latex": "(5,6]", "image": ""}, {"key": "B", "text": "", "latex": "[5,6]", "image": ""}, {"key": "C", "text": "", "latex": "(5,\\infty)", "image": ""}, {"key": "D", "text": "", "latex": "(-\\infty,6]", "image": ""}]}, {"id": "M1_030", "pregunta_numero": 30, "eje": "Geometría", "habilidad": "Resolver problemas", "dificultad": "desafiante", "tipo_render": "texto_latex_figura", "contexto": "Área compuesta con curva", "stem_text": "La figura muestra un rectángulo de 10 cm de largo y 6 cm de ancho, sobre cuyo lado superior se construye un semicírculo de diámetro 6 cm. ¿Cuál es el área total de la figura compuesta?", "stem_latex": "\\pi\\approx 3{,}14", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+Cgo8cmVjdCB4PSIxODAiIHk9IjE4MCIgd2lkdGg9IjM2MCIgaGVpZ2h0PSIxODAiIGNsYXNzPSJsaW5lIi8+CjxwYXRoIGQ9Ik0zNjAgMTgwIEE5MCA5MCAwIDAgMSA1NDAgMTgwIiBjbGFzcz0ibGluZSIvPgo8dGV4dCB4PSIzNjAiIHk9IjM5MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj4xMCBjbTwvdGV4dD4KPHRleHQgeD0iMTU1IiB5PSIyNzIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJsYWJlbCIgdHJhbnNmb3JtPSJyb3RhdGUoLTkwIDE1NSAyNzIpIj42IGNtPC90ZXh0Pgo8dGV4dCB4PSI0NTAiIHk9IjE1NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9ImxhYmVsIj42IGNtPC90ZXh0PgoKPC9zdmc+", "imagen_nombre": "M1_030_rectangulo_semicirculo.svg", "subfoco": "60+9\\pi", "correcta": "B", "options": [{"key": "A", "text": "", "latex": "60+3\\pi", "image": ""}, {"key": "B", "text": "", "latex": "60+\\frac{9\\pi}{2}", "image": ""}, {"key": "C", "text": "", "latex": "60+6\\pi", "image": ""}, {"key": "D", "text": "", "latex": "60+9\\pi", "image": ""}]}, {"id": "M1_031", "pregunta_numero": 31, "eje": "Álgebra y funciones", "habilidad": "Resolver problemas", "dificultad": "desafiante", "tipo_render": "texto_latex", "contexto": "Sistema no rutinario", "stem_text": "Si", "stem_latex": "\\begin{cases} x+y=11 \\\\ x-y=3 \\end{cases}\\text{, ¿cuál es el valor de }x\\cdot y\\, ?", "imagen": "", "imagen_nombre": "", "subfoco": "Sistemas de ecuaciones lineales", "correcta": "A", "options": [{"key": "A", "text": "28", "latex": "", "image": ""}, {"key": "B", "text": "21", "latex": "", "image": ""}, {"key": "C", "text": "16", "latex": "", "image": ""}, {"key": "D", "text": "14", "latex": "", "image": ""}]}, {"id": "M1_032", "pregunta_numero": 32, "eje": "Números", "habilidad": "Modelar", "dificultad": "desafiante", "tipo_render": "solo_texto", "contexto": "Interés simple", "stem_text": "Un capital de $200.000 se invierte a interés simple de 1,5% mensual durante 8 meses. ¿Cuál es el monto total obtenido al final del período?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Porcentajes sucesivos e interés simple", "correcta": "B", "options": [{"key": "A", "text": "$212.000", "latex": "", "image": ""}, {"key": "B", "text": "$224.000", "latex": "", "image": ""}, {"key": "C", "text": "$240.000", "latex": "", "image": ""}, {"key": "D", "text": "$260.000", "latex": "", "image": ""}]}, {"id": "M1_033", "pregunta_numero": 33, "eje": "Geometría", "habilidad": "Representar", "dificultad": "media", "tipo_render": "texto_figura", "contexto": "Ángulos en paralelas", "stem_text": "En la figura, dos rectas paralelas son cortadas por una transversal. Si uno de los ángulos interiores alternos mide 68°, ¿cuánto mide el ángulo marcado x?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MjAiIGhlaWdodD0iNDMwIiB2aWV3Qm94PSIwIDAgODIwIDQzMCI+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IndoaXRlIi8+CjxzdHlsZT4KLmxpbmV7c3Ryb2tlOiMxMTE7c3Ryb2tlLXdpZHRoOjQ7ZmlsbDpub25lO3N0cm9rZS1saW5lY2FwOnJvdW5kfQoubGFiZWx7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7Zm9udC1zaXplOjMwcHg7ZmlsbDojMTExO2ZvbnQtd2VpZ2h0OjcwMH0KPC9zdHlsZT4KPGxpbmUgeDE9IjEyMCIgeTE9IjEzMCIgeDI9IjcwMCIgeTI9IjEzMCIgY2xhc3M9ImxpbmUiLz4KPGxpbmUgeDE9IjEyMCIgeTE9IjI5MCIgeDI9IjcwMCIgeTI9IjI5MCIgY2xhc3M9ImxpbmUiLz4KPGxpbmUgeDE9IjI1MCIgeTE9IjM2MCIgeDI9IjUyMCIgeTI9IjYwIiBjbGFzcz0ibGluZSIvPgo8dGV4dCB4PSIzOTAiIHk9IjIwNSIgY2xhc3M9ImxhYmVsIj42OMKwPC90ZXh0Pgo8dGV4dCB4PSI0ODAiIHk9IjI1NSIgY2xhc3M9ImxhYmVsIj54PC90ZXh0Pgo8L3N2Zz4=", "imagen_nombre": "M1_033_paralelas_transversal_legible.svg", "subfoco": "Relaciones angulares en paralelas", "correcta": "A", "options": [{"key": "A", "text": "68°", "latex": "", "image": ""}, {"key": "B", "text": "112°", "latex": "", "image": ""}, {"key": "C", "text": "90°", "latex": "", "image": ""}, {"key": "D", "text": "34°", "latex": "", "image": ""}]}, {"id": "M1_034", "pregunta_numero": 34, "eje": "Probabilidad y estadística", "habilidad": "Resolver problemas", "dificultad": "desafiante", "tipo_render": "texto_latex", "contexto": "Conteo con restricción", "stem_text": "En una caja hay 5 bolas rojas y 3 bolas azules. Se extraen 2 bolas sin reposición. ¿Cuál es la probabilidad de que ambas sean rojas?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Probabilidad compuesta sin reposición", "correcta": "C", "options": [{"key": "A", "text": "", "latex": "\\frac{10}{64}", "image": ""}, {"key": "B", "text": "", "latex": "\\frac{20}{56}", "image": ""}, {"key": "C", "text": "", "latex": "\\frac{5}{14}", "image": ""}, {"key": "D", "text": "", "latex": "\\frac{1}{2}", "image": ""}]}, {"id": "M1_035", "pregunta_numero": 35, "eje": "Álgebra y funciones", "habilidad": "Representar", "dificultad": "desafiante", "tipo_render": "texto_latex_figura", "contexto": "Lectura de función afín", "stem_text": "La recta del gráfico corta al eje y en 4 y al eje x en 2. ¿Cuál de las siguientes expresiones representa a la función graficada?", "stem_latex": "", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+CjxsaW5lIHgxPSIxMTAuMCIgeTE9IjQwMC4wIiB4Mj0iNjcwLjAiIHkyPSI0MDAuMCIgY2xhc3M9ImF4aXMiLz48bGluZSB4MT0iMTEwLjAiIHkxPSI0MDAuMCIgeDI9IjExMC4wIiB5Mj0iODAuMCIgY2xhc3M9ImF4aXMiLz48bGluZSB4MT0iMTEwLjAiIHkxPSIzOTQuMCIgeDI9IjExMC4wIiB5Mj0iNDA2LjAiIGNsYXNzPSJ0aGluIi8+PHRleHQgeD0iMTEwLjAiIHk9IjQyOC4wIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPjA8L3RleHQ+PGxpbmUgeDE9IjI1MC4wIiB5MT0iMzk0LjAiIHgyPSIyNTAuMCIgeTI9IjQwNi4wIiBjbGFzcz0idGhpbiIvPjx0ZXh0IHg9IjI1MC4wIiB5PSI0MjguMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj4xPC90ZXh0PjxsaW5lIHgxPSIzOTAuMCIgeTE9IjM5NC4wIiB4Mj0iMzkwLjAiIHkyPSI0MDYuMCIgY2xhc3M9InRoaW4iLz48dGV4dCB4PSIzOTAuMCIgeT0iNDI4LjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGNsYXNzPSJzbWFsbCI+MjwvdGV4dD48bGluZSB4MT0iNTMwLjAiIHkxPSIzOTQuMCIgeDI9IjUzMC4wIiB5Mj0iNDA2LjAiIGNsYXNzPSJ0aGluIi8+PHRleHQgeD0iNTMwLjAiIHk9IjQyOC4wIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBjbGFzcz0ic21hbGwiPjM8L3RleHQ+PGxpbmUgeDE9IjY3MC4wIiB5MT0iMzk0LjAiIHgyPSI2NzAuMCIgeTI9IjQwNi4wIiBjbGFzcz0idGhpbiIvPjx0ZXh0IHg9IjY3MC4wIiB5PSI0MjguMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgY2xhc3M9InNtYWxsIj40PC90ZXh0PjxsaW5lIHgxPSIxMDQuMCIgeTE9IjQwMC4wIiB4Mj0iMTE2LjAiIHkyPSI0MDAuMCIgY2xhc3M9InRoaW4iLz48bGluZSB4MT0iMTA0LjAiIHkxPSIzMzYuMCIgeDI9IjExNi4wIiB5Mj0iMzM2LjAiIGNsYXNzPSJ0aGluIi8+PHRleHQgeD0iOTIuMCIgeT0iMzQzLjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+MTwvdGV4dD48bGluZSB4MT0iMTA0LjAiIHkxPSIyNzIuMCIgeDI9IjExNi4wIiB5Mj0iMjcyLjAiIGNsYXNzPSJ0aGluIi8+PHRleHQgeD0iOTIuMCIgeT0iMjc5LjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+MjwvdGV4dD48bGluZSB4MT0iMTA0LjAiIHkxPSIyMDguMCIgeDI9IjExNi4wIiB5Mj0iMjA4LjAiIGNsYXNzPSJ0aGluIi8+PHRleHQgeD0iOTIuMCIgeT0iMjE1LjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+MzwvdGV4dD48bGluZSB4MT0iMTA0LjAiIHkxPSIxNDQuMCIgeDI9IjExNi4wIiB5Mj0iMTQ0LjAiIGNsYXNzPSJ0aGluIi8+PHRleHQgeD0iOTIuMCIgeT0iMTUxLjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+NDwvdGV4dD48bGluZSB4MT0iMTA0LjAiIHkxPSI4MC4wIiB4Mj0iMTE2LjAiIHkyPSI4MC4wIiBjbGFzcz0idGhpbiIvPjx0ZXh0IHg9IjkyLjAiIHk9Ijg3LjAiIHRleHQtYW5jaG9yPSJlbmQiIGNsYXNzPSJzbWFsbCI+NTwvdGV4dD48bGluZSB4MT0iODIuMCIgeTE9IjExOC4zOTk5OTk5OTk5OTk5OCIgeDI9IjQxOC4wIiB5Mj0iNDI1LjYiIGNsYXNzPSJsaW5lIi8+PGNpcmNsZSBjeD0iMTEwLjAiIGN5PSIxNDQuMCIgcj0iNSIgY2xhc3M9InB0Ii8+PHRleHQgeD0iMTIwLjAiIHk9IjEzNC4wIiBjbGFzcz0ic21hbGwiPigwLDQpPC90ZXh0PjxjaXJjbGUgY3g9IjM5MC4wIiBjeT0iNDAwLjAiIHI9IjUiIGNsYXNzPSJwdCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIzOTAuMCIgY2xhc3M9InNtYWxsIj4oMiwwKTwvdGV4dD4KPC9zdmc+", "imagen_nombre": "M1_035_recta_interceptos_alto_contraste.svg", "subfoco": "Función lineal desde interceptos", "correcta": "A", "options": [{"key": "A", "text": "", "latex": "y=-2x+4", "image": ""}, {"key": "B", "text": "", "latex": "y=2x+4", "image": ""}, {"key": "C", "text": "", "latex": "y=-\\frac{1}{2}x+4", "image": ""}, {"key": "D", "text": "", "latex": "y=2x-4", "image": ""}]}, {"id": "M1_036", "pregunta_numero": 36, "eje": "Álgebra y funciones", "habilidad": "Modelar", "dificultad": "desafiante", "tipo_render": "texto_latex", "contexto": "Modelación con perímetro", "stem_text": "El perímetro de un rectángulo es 30 cm. Si su largo mide 3 cm más que el ancho, ¿cuál de las siguientes ecuaciones permite determinar el ancho", "stem_latex": "x\\text{ del rectángulo?}", "imagen": "", "imagen_nombre": "", "subfoco": "Planteamiento algebraico desde contexto geométrico", "correcta": "C", "options": [{"key": "A", "text": "", "latex": "2x+3=30", "image": ""}, {"key": "B", "text": "", "latex": "2(x+3)=30", "image": ""}, {"key": "C", "text": "", "latex": "2x+2(x+3)=30", "image": ""}, {"key": "D", "text": "", "latex": "x(x+3)=30", "image": ""}]}, {"id": "M1_037", "pregunta_numero": 37, "eje": "Álgebra y funciones", "habilidad": "Argumentar", "dificultad": "desafiante", "tipo_render": "texto_latex", "contexto": "Composición de transformaciones", "stem_text": "¿Cuál de las siguientes afirmaciones es verdadera para la función", "stem_latex": "f(x)=2(x-3)^2+1\\, ?", "imagen": "", "imagen_nombre": "", "subfoco": "Interpretación de forma canónica", "correcta": "A", "options": [{"key": "A", "text": "Tiene vértice en (3,1) y abre hacia arriba.", "latex": "", "image": ""}, {"key": "B", "text": "Tiene vértice en (-3,1) y abre hacia arriba.", "latex": "", "image": ""}, {"key": "C", "text": "Tiene vértice en (3,-1) y abre hacia abajo.", "latex": "", "image": ""}, {"key": "D", "text": "Corta al eje y en 1.", "latex": "", "image": ""}]}, {"id": "M1_038", "pregunta_numero": 38, "eje": "Números", "habilidad": "Resolver problemas", "dificultad": "media", "tipo_render": "solo_texto", "contexto": "Razón porcentual", "stem_text": "En un curso, el 40% de los estudiantes son hombres. Si hay 18 mujeres, ¿cuántos estudiantes hay en total?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Porcentaje y proporcionalidad", "correcta": "A", "options": [{"key": "A", "text": "30", "latex": "", "image": ""}, {"key": "B", "text": "45", "latex": "", "image": ""}, {"key": "C", "text": "36", "latex": "", "image": ""}, {"key": "D", "text": "24", "latex": "", "image": ""}]}, {"id": "M1_039", "pregunta_numero": 39, "eje": "Geometría", "habilidad": "Resolver problemas", "dificultad": "desafiante", "tipo_render": "texto_latex_figura", "contexto": "Volumen de cilindro", "stem_text": "La figura muestra un cilindro de radio 3 cm y altura 10 cm. ¿Cuál es su volumen?", "stem_latex": "\\pi\\approx 3{,}14", "imagen": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiB2aWV3Qm94PSIwIDAgODAwIDUwMCI+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiLz4KICA8c3R5bGU+CiAgICAubGluZSB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MzsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAudGhpbiB7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgZmlsbDpub25lOyBzdHJva2UtbGluZWNhcDpyb3VuZDsgc3Ryb2tlLWxpbmVqb2luOnJvdW5kOyB9CiAgICAubGFiZWwgeyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOjI0cHg7IGZpbGw6IzExMTsgfQogICAgLnNtYWxsIHsgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZToyMHB4OyBmaWxsOiMxMTE7IH0KICAgIC5heGlzIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDozOyBmaWxsOm5vbmU7IH0KICAgIC5ncmlkIHsgc3Ryb2tlOiM3Nzc7IHN0cm9rZS13aWR0aDoxOyBmaWxsOm5vbmU7IG9wYWNpdHk6MC4zNTsgfQogICAgLnB0IHsgZmlsbDojMTExOyB9CiAgICAudGFibGVoZWFkIHsgZmlsbDojZTllOWU5OyBzdHJva2U6IzExMTsgc3Ryb2tlLXdpZHRoOjI7IH0KICAgIC50YWJsZWNlbGwgeyBmaWxsOiNmZmY7IHN0cm9rZTojMTExOyBzdHJva2Utd2lkdGg6MjsgfQogICAgLmJhciB7IGZpbGw6IzIyMjsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyOyB9CiAgICAuYXJjIHsgc3Ryb2tlOiMxMTE7IHN0cm9rZS13aWR0aDoyLjU7IGZpbGw6bm9uZTsgfQogIDwvc3R5bGU+Cgo8ZWxsaXBzZSBjeD0iNDAwIiBjeT0iMTMwIiByeD0iMTIwIiByeT0iMzUiIGNsYXNzPSJsaW5lIi8+CjxsaW5lIHgxPSIyODAiIHkxPSIxMzAiIHgyPSIyODAiIHkyPSIzMzAiIGNsYXNzPSJsaW5lIi8+CjxsaW5lIHgxPSI1MjAiIHkxPSIxMzAiIHgyPSI1MjAiIHkyPSIzMzAiIGNsYXNzPSJsaW5lIi8+CjxwYXRoIGQ9Ik0yODAgMzMwIEExMjAgMzUgMCAwIDAgNTIwIDMzMCIgY2xhc3M9ImxpbmUiLz4KPHBhdGggZD0iTTI4MCAzMzAgQTEyMCAzNSAwIDAgMSA1MjAgMzMwIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgc3Ryb2tlLWRhc2hhcnJheT0iOCA4Ii8+CjxsaW5lIHgxPSI0MDAiIHkxPSIxMzAiIHgyPSI1MjAiIHkyPSIxMzAiIGNsYXNzPSJ0aGluIi8+Cjx0ZXh0IHg9IjUzNSIgeT0iMjQwIiBjbGFzcz0ibGFiZWwiPjEwIGNtPC90ZXh0Pgo8dGV4dCB4PSI0NDgiIHk9IjExOCIgY2xhc3M9ImxhYmVsIj4zIGNtPC90ZXh0PgoKPC9zdmc+", "imagen_nombre": "M1_039_cilindro_alto_contraste.svg", "subfoco": "Volumen de cuerpos geométricos", "correcta": "C", "options": [{"key": "A", "text": "", "latex": "30\\pi\\ \\text{cm}^3", "image": ""}, {"key": "B", "text": "", "latex": "60\\pi\\ \\text{cm}^3", "image": ""}, {"key": "C", "text": "", "latex": "90\\pi\\ \\text{cm}^3", "image": ""}, {"key": "D", "text": "", "latex": "180\\pi\\ \\text{cm}^3", "image": ""}]}, {"id": "M1_040", "pregunta_numero": 40, "eje": "Álgebra y funciones", "habilidad": "Argumentar", "dificultad": "desafiante", "tipo_render": "solo_texto", "contexto": "Análisis de pendiente", "stem_text": "Dos estudiantes describen la misma relación lineal. El estudiante A afirma que la recta pasa por (1,3) y (5,11). El estudiante B afirma que su pendiente es 2 y que corta al eje y en 1. ¿Cuál afirmación es correcta?", "stem_latex": "", "imagen": "", "imagen_nombre": "", "subfoco": "Argumentación con pendiente e intersección", "correcta": "A", "options": [{"key": "A", "text": "Ambos describen la misma recta.", "latex": "", "image": ""}, {"key": "B", "text": "Solo A describe correctamente una recta de pendiente 2.", "latex": "", "image": ""}, {"key": "C", "text": "Solo B describe correctamente una recta que pasa por (1,3).", "latex": "", "image": ""}, {"key": "D", "text": "Ninguno, porque la pendiente entre los puntos dados es 4.", "latex": "", "image": ""}]}];
+    window.APP_CONFIG = {
+      VERSION: "v3-correcciones-web",
+      SHEETS_WEB_APP_URL: "",
+      TIME_LIMIT_MINUTES: 100
+    };
+  </script>
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(','\\)'], ['$', '$']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <style>
+    :root {
+      --bg:#f4f7fb; --card:#ffffff; --ink:#132238; --muted:#5e6b7a; --line:#d9e2ec;
+      --primary:#123a73; --accent:#18b7c9; --ok:#117a37; --bad:#b42318; --warn:#8a5a00;
+      --shadow:0 10px 30px rgba(16,24,40,.08); --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+    .wrap{max-width:980px;margin:0 auto;padding:18px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+    .hidden{display:none!important}
+    h1,h2,h3{margin:0 0 12px} p{margin:0 0 12px;line-height:1.62} #stem-text p{margin:0 0 8px;line-height:1.7} #stem-latex{display:block;line-height:1.7} .question-box{line-height:1.6}
+    .brand{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+    .brand-mark{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--primary),var(--accent))}
+    .subtle{color:var(--muted)} .small{font-size:14px}
+    .grid{display:grid;gap:14px} .grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+    label{display:block;font-weight:600;margin-bottom:6px}
+    input[type="text"], input[type="email"]{width:100%;padding:13px 14px;border-radius:12px;border:1px solid var(--line);font:inherit;color:var(--ink);background:#fff}
+    .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+    button{border:0;border-radius:12px;padding:12px 16px;font:inherit;font-weight:700;cursor:pointer}
+    button:disabled{opacity:.5;cursor:not-allowed}
+    .btn-primary{background:var(--primary);color:#fff}
+    .btn-secondary{background:#e8eef8;color:var(--primary)}
+    .btn-ghost{background:transparent;color:var(--primary);border:1px solid var(--line)}
+    .btn-danger{background:#fee4e2;color:var(--bad)}
+    .topbar,.question-meta{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .question-meta{justify-content:flex-start;margin-bottom:12px;gap:8px}
+    .pill{border:1px solid var(--line);border-radius:999px;padding:8px 12px;background:#fff;font-size:14px}
+    .progress{width:100%;height:10px;border-radius:999px;background:#e9eef5;overflow:hidden;margin:10px 0 20px}
+    .progress>div{height:100%;background:linear-gradient(90deg,var(--primary),var(--accent));width:0;transition:width .25s ease}
+    .question-box{border:1px solid var(--line);border-radius:16px;padding:18px;background:#fbfdff}
+    .question-image{margin:14px 0;width:100%;text-align:center}
+    .question-image img{width:100%;max-width:340px;height:auto;border:1px solid var(--line);border-radius:14px;background:white}
+    .latex-block{font-size:1.05rem; margin:8px 0 0}
+    .options{display:grid;gap:12px;margin-top:18px}
+    .option{border:1px solid var(--line);border-radius:14px;background:#fff;padding:14px;display:flex;gap:12px;align-items:flex-start;cursor:pointer;transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease} .option > div:last-child{flex:1}
+    .option:hover{border-color:#b9c8d8;transform:translateY(-1px)}
+    .option.selected{border-color:var(--primary);box-shadow:0 0 0 2px rgba(18,58,115,.12)}
+    .option-code{min-width:28px;height:28px;display:inline-grid;place-items:center;border-radius:999px;background:#edf2f7;font-weight:700}
+    .nav-grid{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:8px;margin-top:18px}
+    .nav-grid button{padding:10px 0;background:#fff;border:1px solid var(--line);font-weight:700}
+    .nav-grid button.current{background:var(--primary);color:#fff;border-color:var(--primary)}
+    .nav-grid button.answered{background:#eef8ff;border-color:#b9defa}
+    .summary-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:14px}
+    .summary-card{border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center;background:#fbfdff}
+    .summary-card strong{display:block;font-size:26px;margin-top:8px}
+    table{width:100%;border-collapse:collapse;margin-top:16px}
+    th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+    th{font-size:14px;color:var(--muted)}
+    .alert{border-radius:14px;padding:14px;margin-top:14px;background:#eef8ff;border:1px solid #cfe7ff;color:#184c7c}
+    .alert.warn{background:#fff6e5;border-color:#f0d6a2;color:var(--warn)}
+    .alert.error{background:#fff1f3;border-color:#f8c7d0;color:#9f1239}
+    .codebox{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#0f172a;color:#e2e8f0;padding:12px;border-radius:12px;overflow:auto;white-space:pre-wrap}
+    @media (max-width: 760px) {
+      .wrap{padding:14px}
+      .grid.two, .summary-grid{grid-template-columns:1fr}
+      .nav-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+      .question-image img{max-width:68vw}
+      .card{padding:16px}
+      button{width:100%}
+      .actions button{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section id="screen-start" class="card">
+      <div class="brand">
+        <div class="brand-mark"></div>
+        <div>
+          <h1>Diagnóstico PAES M1</h1>
+          <p class="subtle">Formulario final v1 · mini tarea operativa para dos estudiantes reales</p>
+        </div>
+      </div>
+      <p>Este diagnóstico contiene <strong>40 preguntas</strong> de selección múltiple. El objetivo es identificar fortalezas y brechas por eje y habilidad, no entregar un puntaje oficial PAES.</p>
+      <div class="grid two">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="text" autocomplete="given-name" />
+        </div>
+        <div>
+          <label for="apellido">Apellido</label>
+          <input id="apellido" type="text" autocomplete="family-name" />
+        </div>
+        <div>
+          <label for="correo">Correo</label>
+          <input id="correo" type="email" autocomplete="email" />
+        </div>
+        <div>
+          <label for="attempt">ID de intento</label>
+          <input id="attempt" type="text" />
+        </div>
+      </div>
+      <div class="alert small">
+        Guardado local activo. Si cierras accidentalmente la pestaña, podrás retomar desde este mismo dispositivo.
+      </div>
+      <div class="actions">
+        <button class="btn-primary" id="btn-start">Comenzar diagnóstico</button>
+        <button class="btn-ghost" id="btn-load">Recuperar guardado local</button>
+      </div>
+    </section>
+
+    <section id="screen-test" class="card hidden">
+      <div class="topbar">
+        <div>
+          <h2>Diagnóstico en curso</h2>
+          <div class="small subtle" id="student-line"></div>
+        </div>
+        <div class="pill" id="timer-pill">100:00</div>
+      </div>
+      <div class="progress"><div id="progress-bar"></div></div>
+      <div class="question-meta">
+        <div class="pill" id="pill-number">Pregunta 1 de 40</div>
+        <div class="pill" id="pill-eje"></div>
+        <div class="pill" id="pill-dif"></div>
+      </div>
+      <div class="question-box">
+        <p class="small subtle" id="contexto"></p>
+        <div id="stem-text"></div>
+        <div class="latex-block" id="stem-latex"></div>
+        <div class="question-image hidden" id="image-wrap">
+          <img id="question-image" alt="Figura de la pregunta" />
+        </div>
+        <div class="options" id="options"></div>
+      </div>
+
+      <div class="actions">
+        <button class="btn-secondary" id="btn-prev">Pregunta anterior</button>
+        <button class="btn-primary" id="btn-next">Siguiente pregunta</button>
+        <button class="btn-ghost" id="btn-clear">Dejar omitida</button>
+        <button class="btn-ghost" id="btn-save">Guardar progreso</button>
+        <button class="btn-ghost" id="btn-finish">Finalizar diagnóstico</button>
+      </div>
+
+      <div class="alert warn small">
+        Las figuras fueron corregidas para mejorar legibilidad web. Puedes volver atrás y usar “Dejar omitida” para limpiar una respuesta.
+      </div>
+
+      <div class="nav-grid" id="nav-grid"></div>
+    </section>
+
+    <section id="screen-results" class="card hidden">
+      <div class="brand">
+        <div class="brand-mark"></div>
+        <div>
+          <h2>Resultados del diagnóstico</h2>
+          <p class="subtle">Resumen del intento y archivos de respaldo listos para exportar</p>
+        </div>
+      </div>
+      <div class="summary-grid">
+        <div class="summary-card"><span>Total</span><strong id="sum-total">40</strong></div>
+        <div class="summary-card"><span>Respondidas</span><strong id="sum-answered">0</strong></div>
+        <div class="summary-card"><span>Correctas</span><strong id="sum-correct">0</strong></div>
+        <div class="summary-card"><span>Incorrectas</span><strong id="sum-wrong">0</strong></div>
+        <div class="summary-card"><span>Omitidas</span><strong id="sum-blank">0</strong></div>
+      </div>
+
+      <h3 style="margin-top:24px">Desempeño por eje</h3>
+      <table>
+        <thead><tr><th>Eje</th><th>Respondidas</th><th>Correctas</th><th>Precisión</th></tr></thead>
+        <tbody id="tbody-ejes"></tbody>
+      </table>
+
+      <h3 style="margin-top:24px">Desempeño por habilidad</h3>
+      <table>
+        <thead><tr><th>Habilidad</th><th>Respondidas</th><th>Correctas</th><th>Precisión</th></tr></thead>
+        <tbody id="tbody-hab"></tbody>
+      </table>
+
+      <div class="actions">
+        <button class="btn-primary" id="btn-download-csv">Descargar CSV</button>
+        <button class="btn-secondary" id="btn-download-json">Descargar JSON</button>
+        <button class="btn-ghost" id="btn-copy-json">Copiar payload JSON</button>
+        <button class="btn-ghost" id="btn-send">Enviar a Google Sheets</button>
+        <button class="btn-danger" id="btn-reset">Reiniciar diagnóstico</button>
+      </div>
+
+      <div id="send-status" class="alert hidden"></div>
+
+      <h3 style="margin-top:24px">Payload listo para envío</h3>
+      <div class="codebox" id="payload-box"></div>
+    </section>
+  </div>
+
+  <script>
+    const STORAGE_KEY = "diag_paesm1_final_v1";
+    const state = {
+      current: 0,
+      startedAt: null,
+      remainingSeconds: window.APP_CONFIG.TIME_LIMIT_MINUTES * 60,
+      student: { nombre:"", apellido:"", correo:"", attempt_id:"" },
+      answers: {}
+    };
+
+    const $ = (id) => document.getElementById(id);
+    const els = {
+      start: $("screen-start"), test: $("screen-test"), results: $("screen-results"),
+      nombre:$("nombre"), apellido:$("apellido"), correo:$("correo"), attempt:$("attempt"),
+      studentLine:$("student-line"), timer:$("timer-pill"), progress:$("progress-bar"),
+      pillNumber:$("pill-number"), pillEje:$("pill-eje"), pillDif:$("pill-dif"),
+      contexto:$("contexto"), stemText:$("stem-text"), stemLatex:$("stem-latex"),
+      imageWrap:$("image-wrap"), image:$("question-image"), options:$("options"),
+      navGrid:$("nav-grid"), payloadBox:$("payload-box"), sendStatus:$("send-status")
+    };
+
+    function uid() {
+      return "M1_" + Math.random().toString(36).slice(2,8).toUpperCase() + "_" + Date.now().toString().slice(-6);
+    }
+
+    function saveLocal() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function loadLocal() {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return false;
+      try {
+        const parsed = JSON.parse(raw);
+        Object.assign(state, parsed);
+        hydrateStudentInputs();
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function hydrateStudentInputs() {
+      els.nombre.value = state.student.nombre || "";
+      els.apellido.value = state.student.apellido || "";
+      els.correo.value = state.student.correo || "";
+      els.attempt.value = state.student.attempt_id || "";
+    }
+
+    function fmtTime(total) {
+      const min = Math.floor(total / 60);
+      const sec = total % 60;
+      return String(min).padStart(2,"0") + ":" + String(sec).padStart(2,"0");
+    }
+
+    let timerHandle = null;
+    function startTimer() {
+      if (timerHandle) clearInterval(timerHandle);
+      els.timer.textContent = fmtTime(state.remainingSeconds);
+      timerHandle = setInterval(() => {
+        if (state.remainingSeconds <= 0) {
+          clearInterval(timerHandle);
+          finalize();
+          return;
+        }
+        state.remainingSeconds -= 1;
+        els.timer.textContent = fmtTime(state.remainingSeconds);
+        if (state.remainingSeconds % 15 === 0) saveLocal();
+      }, 1000);
+    }
+
+    function show(screen) {
+      els.start.classList.add("hidden");
+      els.test.classList.add("hidden");
+      els.results.classList.add("hidden");
+      screen.classList.remove("hidden");
+      window.scrollTo({ top:0, behavior:"smooth" });
+    }
+
+    function begin() {
+      const nombre = els.nombre.value.trim();
+      const apellido = els.apellido.value.trim();
+      const correo = els.correo.value.trim();
+      if (!nombre || !apellido || !correo) {
+        alert("Completa nombre, apellido y correo antes de comenzar.");
+        return;
+      }
+      state.student = {
+        nombre, apellido, correo,
+        attempt_id: els.attempt.value.trim() || uid()
+      };
+      els.attempt.value = state.student.attempt_id;
+      state.startedAt = state.startedAt || new Date().toISOString();
+      saveLocal();
+      els.studentLine.textContent = `${nombre} ${apellido} · ${correo} · ${state.student.attempt_id}`;
+      buildNav();
+      renderQuestion();
+      startTimer();
+      show(els.test);
+    }
+
+    function buildNav() {
+      els.navGrid.innerHTML = "";
+      window.ITEMS.forEach((item, idx) => {
+        const btn = document.createElement("button");
+        btn.textContent = item.pregunta_numero;
+        btn.addEventListener("click", () => {
+          state.current = idx;
+          renderQuestion();
+        });
+        els.navGrid.appendChild(btn);
+      });
+      refreshNav();
+    }
+
+    function refreshNav() {
+      [...els.navGrid.children].forEach((btn, idx) => {
+        btn.className = "";
+        if (idx === state.current) btn.classList.add("current");
+        if (state.answers[window.ITEMS[idx].id]) btn.classList.add("answered");
+      });
+    }
+
+    function renderMath(container) {
+      if (window.MathJax && window.MathJax.typesetPromise) {
+        window.MathJax.typesetPromise([container]).catch(() => {});
+      }
+    }
+
+    function renderQuestion() {
+      const item = window.ITEMS[state.current];
+      els.pillNumber.textContent = `Pregunta ${item.pregunta_numero} de ${window.ITEMS.length}`;
+      els.pillEje.textContent = item.eje;
+      els.pillDif.textContent = `Dificultad: ${item.dificultad}`;
+      els.contexto.textContent = item.contexto || "";
+      els.stemText.innerHTML = `<p>${item.stem_text || ""}</p>`;
+      els.stemLatex.innerHTML = item.stem_latex ? `\\(${item.stem_latex}\\)` : "";
+      if (item.imagen) {
+        els.image.src = item.imagen;
+        els.image.alt = item.imagen_nombre || ("Figura de " + item.id);
+        els.imageWrap.classList.remove("hidden");
+      } else {
+        els.imageWrap.classList.add("hidden");
+      }
+      els.options.innerHTML = "";
+      const selected = state.answers[item.id] || "";
+      item.options.forEach(opt => {
+        const label = document.createElement("div");
+        label.className = "option" + (selected === opt.key ? " selected" : "");
+        label.innerHTML = `
+          <div class="option-code">${opt.key}</div>
+          <div>
+            ${opt.text ? `<div>${opt.text}</div>` : ""}
+            ${opt.latex ? `<div>\\(${opt.latex}\\)</div>` : ""}
+            ${opt.image ? `<div class="question-image"><img src="${opt.image}" alt="Alternativa ${opt.key}" /></div>` : ""}
+          </div>
+        `;
+        label.addEventListener("click", () => {
+          state.answers[item.id] = opt.key;
+          saveLocal();
+          renderQuestion();
+        });
+        els.options.appendChild(label);
+      });
+      els.progress.style.width = `${(Object.keys(state.answers).length / window.ITEMS.length)*100}%`;
+      $("btn-prev").disabled = state.current === 0;
+      $("btn-next").textContent = state.current === window.ITEMS.length - 1 ? "Ver resultados" : "Siguiente pregunta";
+      $("btn-clear").disabled = !selected;
+      refreshNav();
+      renderMath(document.body);
+    }
+
+    function rowsForExport() {
+      const timestamp = new Date().toISOString();
+      return window.ITEMS.map(item => {
+        const answer = state.answers[item.id] || "";
+        const stem = [item.stem_text, item.stem_latex].filter(Boolean).join(" ");
+        return {
+          timestamp_envio: timestamp,
+          attempt_id: state.student.attempt_id,
+          nombre: state.student.nombre,
+          apellido: state.student.apellido,
+          correo: state.student.correo,
+          ID: item.id,
+          Eje: item.eje,
+          Habilidad: item.habilidad,
+          Pregunta: stem,
+          Respuesta: answer,
+          Resultado: answer ? (answer === item.correcta ? "OK" : "X") : "",
+          Correcta: item.correcta
+        };
+      });
+    }
+
+    function summarize(rows, key) {
+      const map = new Map();
+      rows.forEach(r => {
+        const bucket = map.get(r[key]) || { responded:0, correct:0 };
+        if (r.Respuesta) bucket.responded += 1;
+        if (r.Resultado === "OK") bucket.correct += 1;
+        map.set(r[key], bucket);
+      });
+      return [...map.entries()];
+    }
+
+    function finalize() {
+      if (timerHandle) clearInterval(timerHandle);
+      const rows = rowsForExport();
+      const answered = rows.filter(r => !!r.Respuesta).length;
+      const correct = rows.filter(r => r.Resultado === "OK").length;
+      $("sum-total").textContent = rows.length;
+      $("sum-answered").textContent = answered;
+      $("sum-correct").textContent = correct;
+      $("sum-wrong").textContent = rows.filter(r => r.Respuesta && r.Resultado === "X").length;
+      $("sum-blank").textContent = rows.filter(r => !r.Respuesta).length;
+
+      const ejeBody = $("tbody-ejes"); ejeBody.innerHTML = "";
+      summarize(rows, "Eje").forEach(([name, stats]) => {
+        const tr = document.createElement("tr");
+        const pct = stats.responded ? Math.round((stats.correct / stats.responded) * 100) + "%" : "-";
+        tr.innerHTML = `<td>${name}</td><td>${stats.responded}</td><td>${stats.correct}</td><td>${pct}</td>`;
+        ejeBody.appendChild(tr);
+      });
+
+      const habBody = $("tbody-hab"); habBody.innerHTML = "";
+      summarize(rows, "Habilidad").forEach(([name, stats]) => {
+        const tr = document.createElement("tr");
+        const pct = stats.responded ? Math.round((stats.correct / stats.responded) * 100) + "%" : "-";
+        tr.innerHTML = `<td>${name}</td><td>${stats.responded}</td><td>${stats.correct}</td><td>${pct}</td>`;
+        habBody.appendChild(tr);
+      });
+
+      const payload = {
+        meta: {
+          version: window.APP_CONFIG.VERSION,
+          generated_at: new Date().toISOString(),
+          started_at: state.startedAt,
+          remaining_seconds: state.remainingSeconds
+        },
+        student: state.student,
+        rows
+      };
+      els.payloadBox.textContent = JSON.stringify(payload, null, 2);
+      saveLocal();
+      show(els.results);
+    }
+
+    function toCSV(rows) {
+      const cols = ["timestamp_envio","attempt_id","nombre","apellido","correo","ID","Eje","Habilidad","Pregunta","Respuesta","Resultado","Correcta"];
+      const esc = (v) => `"${String(v ?? "").replaceAll('"','""')}"`;
+      return [cols.join(","), ...rows.map(r => cols.map(c => esc(r[c])).join(","))].join("\n");
+    }
+
+    function download(name, content, type) {
+      const blob = new Blob([content], { type });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url; a.download = name; a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    async function sendToSheets() {
+      const url = window.APP_CONFIG.SHEETS_WEB_APP_URL;
+      if (!url) {
+        setStatus("warn", "Aún no hay URL de Web App configurada. Usa CSV o JSON por ahora.");
+        return;
+      }
+      const payload = JSON.parse(els.payloadBox.textContent);
+      try {
+        setStatus("info", "Enviando registros a Google Sheets...");
+        const res = await fetch(url, {
+          method:"POST",
+          headers: { "Content-Type":"application/json" },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        if (!res.ok || data.ok === false) throw new Error(data.message || "No se pudo enviar.");
+        setStatus("ok", "Envío completado correctamente.");
+      } catch (err) {
+        setStatus("error", err.message || "Falló el envío.");
+      }
+    }
+
+    function setStatus(kind, text) {
+      els.sendStatus.className = "alert";
+      if (kind === "warn") els.sendStatus.classList.add("warn");
+      if (kind === "error") els.sendStatus.classList.add("error");
+      els.sendStatus.textContent = text;
+      els.sendStatus.classList.remove("hidden");
+    }
+
+    function resetAll() {
+      if (!confirm("Esto borrará el progreso local de este diagnóstico en este dispositivo. ¿Continuar?")) return;
+      localStorage.removeItem(STORAGE_KEY);
+      location.reload();
+    }
+
+    $("btn-start").addEventListener("click", begin);
+    $("btn-load").addEventListener("click", () => {
+      if (!loadLocal()) {
+        alert("No encontré un guardado local para este diagnóstico.");
+        return;
+      }
+      if (state.student.nombre) {
+        els.studentLine.textContent = `${state.student.nombre} ${state.student.apellido} · ${state.student.correo} · ${state.student.attempt_id}`;
+      }
+      buildNav();
+      renderQuestion();
+      startTimer();
+      show(els.test);
+    });
+    $("btn-prev").addEventListener("click", () => {
+      if (state.current > 0) {
+        state.current -= 1;
+        renderQuestion();
+      }
+    });
+    $("btn-clear").addEventListener("click", () => {
+      const item = window.ITEMS[state.current];
+      delete state.answers[item.id];
+      saveLocal();
+      renderQuestion();
+    });
+    $("btn-next").addEventListener("click", () => {
+      if (state.current === window.ITEMS.length - 1) finalize();
+      else {
+        state.current += 1;
+        renderQuestion();
+      }
+    });
+    $("btn-save").addEventListener("click", () => {
+      saveLocal();
+      alert("Progreso guardado en este dispositivo.");
+    });
+    $("btn-finish").addEventListener("click", finalize);
+    $("btn-download-csv").addEventListener("click", () => {
+      const rows = rowsForExport();
+      download(`diagnostico_m1_${state.student.attempt_id}.csv`, toCSV(rows), "text/csv;charset=utf-8");
+    });
+    $("btn-download-json").addEventListener("click", () => {
+      download(`diagnostico_m1_${state.student.attempt_id}.json`, els.payloadBox.textContent, "application/json;charset=utf-8");
+    });
+    $("btn-copy-json").addEventListener("click", async () => {
+      await navigator.clipboard.writeText(els.payloadBox.textContent);
+      setStatus("ok", "Payload JSON copiado al portapapeles.");
+    });
+    $("btn-send").addEventListener("click", sendToSheets);
+    $("btn-reset").addEventListener("click", resetAll);
+
+    hydrateStudentInputs();
+    if (!els.attempt.value) els.attempt.value = uid();
+  </script>
+</body>
+</html>
