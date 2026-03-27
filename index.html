@@ -1648,8 +1648,8 @@
   }
 ];
     window.APP_CONFIG = {
-      VERSION: "v17-logo-real",
-      SHEETS_WEB_APP_URL: "",
+      VERSION: "v18-logo-real-gsheet",
+      SHEETS_WEB_APP_URL: "https://script.google.com/macros/s/AKfycbwoK_iLCt_qF--Vsmlo7D_TUcpSM32JnHJs9zAuX1H4jOBvDPtQ8yQVug0AA2UBlFymQg/exec",
       TIME_LIMIT_MINUTES: 100
     };
   </script>
@@ -1839,7 +1839,7 @@
   </div>
 
   <script>
-    const STORAGE_KEY = "diag_paesm1_final_v17";
+    const STORAGE_KEY = "diag_paesm1_final_v18";
     const state = {
       current: 0,
       startedAt: null,
@@ -2147,14 +2147,16 @@
         setStatus("info", "Enviando registros a Google Sheets...");
         const res = await fetch(url, {
           method:"POST",
-          headers: { "Content-Type":"application/json" },
+          headers: { "Content-Type":"text/plain;charset=utf-8" },
           body: JSON.stringify(payload)
         });
-        const data = await res.json();
+        const raw = await res.text();
+        let data = {};
+        try { data = JSON.parse(raw); } catch (_) {}
         if (!res.ok || data.ok === false) throw new Error(data.message || "No se pudo enviar.");
-        setStatus("ok", "Envío completado correctamente.");
+        setStatus("ok", `Envío completado correctamente. Filas registradas: ${data.rows || payload.rows.length}.`);
       } catch (err) {
-        setStatus("error", err.message || "Falló el envío.");
+        setStatus("error", (err && err.message) ? err.message : "Falló el envío.");
       }
     }
 
