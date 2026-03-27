@@ -55,8 +55,8 @@
     "dificultad": "fácil",
     "tipo_render": "texto_latex",
     "contexto": "Fracciones equivalentes",
-    "stem_text": "¿Cuál de las siguientes fracciones es equivalente a:",
-    "stem_latex": "\frac{3}{4}",
+    "stem_text": "¿Cuál de las siguientes fracciones es equivalente a 3/4?",
+    "stem_latex": "",
     "imagen": "",
     "imagen_nombre": "",
     "subfoco": "Fracciones equivalentes y comparación",
@@ -64,26 +64,26 @@
     "options": [
       {
         "key": "A",
-        "text": "",
-        "latex": "\frac{6}{8}",
+        "text": "6/8",
+        "latex": "",
         "image": ""
       },
       {
         "key": "B",
-        "text": "",
-        "latex": "\frac{9}{16}",
+        "text": "9/16",
+        "latex": "",
         "image": ""
       },
       {
         "key": "C",
-        "text": "",
-        "latex": "\frac{12}{20}",
+        "text": "12/20",
+        "latex": "",
         "image": ""
       },
       {
         "key": "D",
-        "text": "",
-        "latex": "\frac{15}{24}",
+        "text": "15/24",
+        "latex": "",
         "image": ""
       }
     ]
@@ -588,8 +588,8 @@
     "dificultad": "media",
     "tipo_render": "texto_latex",
     "contexto": "Ecuación con fracción",
-    "stem_text": "¿Cuál es la solución de la ecuación",
-    "stem_latex": "\frac{x}{4}+3=5",
+    "stem_text": "¿Cuál es la solución de la ecuación x/4 + 3 = 5?",
+    "stem_latex": "",
     "imagen": "",
     "imagen_nombre": "",
     "subfoco": "Ecuaciones con fracciones",
@@ -1162,8 +1162,8 @@
     "dificultad": "desafiante",
     "tipo_render": "texto_latex",
     "contexto": "Inecuación y análisis de soluciones",
-    "stem_text": "¿Cuál es el conjunto solución si se cumplen simultáneamente estas dos condiciones?",
-    "stem_latex": "2x-3>7 \qquad\qquad x\le 6",
+    "stem_text": "¿Cuál es el conjunto solución si se cumplen simultáneamente estas dos condiciones? 2x - 3 > 7 y x ≤ 6",
+    "stem_latex": "",
     "imagen": "",
     "imagen_nombre": "",
     "subfoco": "Inecuaciones y análisis de soluciones",
@@ -1376,26 +1376,26 @@
     "options": [
       {
         "key": "A",
-        "text": "",
-        "latex": "\frac{10}{64}",
+        "text": "10/64",
+        "latex": "",
         "image": ""
       },
       {
         "key": "B",
-        "text": "",
-        "latex": "\frac{20}{56}",
+        "text": "20/56",
+        "latex": "",
         "image": ""
       },
       {
         "key": "C",
-        "text": "",
-        "latex": "\frac{5}{14}",
+        "text": "5/14",
+        "latex": "",
         "image": ""
       },
       {
         "key": "D",
-        "text": "",
-        "latex": "\frac{1}{2}",
+        "text": "1/2",
+        "latex": "",
         "image": ""
       }
     ]
@@ -1429,7 +1429,7 @@
       },
       {
         "key": "C",
-        "text": "y = -(1/2)x + 4",
+        "text": "y = -0,5x + 4",
         "latex": "",
         "image": ""
       },
@@ -1748,9 +1748,9 @@
           <label for="correo">Correo</label>
           <input id="correo" type="email" autocomplete="email" />
         </div>
-        <div>
+        <div style="display:none">
           <label for="attempt">ID de intento</label>
-          <input id="attempt" type="text" />
+          <input id="attempt" type="text" readonly aria-hidden="true" tabindex="-1" />
         </div>
       </div>
       <div class="alert small">
@@ -1805,7 +1805,7 @@
         <div class="brand-mark"></div>
         <div>
           <h2>Resultados del diagnóstico</h2>
-          <p class="subtle">Resumen del intento y archivos de respaldo listos para exportar</p>
+          <p class="subtle">Resumen del intento y respaldo local listo para descargar</p>
         </div>
       </div>
       <div class="summary-grid">
@@ -1838,7 +1838,7 @@
   </div>
 
   <script>
-    const STORAGE_KEY = "diag_paesm1_final_v6";
+    const STORAGE_KEY = "diag_paesm1_final_v9";
     const state = {
       current: 0,
       startedAt: null,
@@ -1931,7 +1931,7 @@
       els.attempt.value = state.student.attempt_id;
       state.startedAt = state.startedAt || new Date().toISOString();
       saveLocal();
-      els.studentLine.textContent = `${nombre} ${apellido} · ${correo} · ${state.student.attempt_id}`;
+      els.studentLine.textContent = `${nombre} ${apellido} · ${correo}`;
       buildNav();
       renderQuestion();
       startTimer();
@@ -2106,7 +2106,7 @@
     async function sendToSheets() {
       const url = window.APP_CONFIG.SHEETS_WEB_APP_URL;
       if (!url) {
-        setStatus("warn", "Aún no hay URL de Web App configurada. Usa CSV o JSON por ahora.");
+        setStatus("warn", "Aún no hay URL de Web App configurada. Usa el respaldo CSV por ahora.");
         return;
       }
       const payload = window.FINAL_PAYLOAD;
@@ -2146,7 +2146,7 @@
         return;
       }
       if (state.student.nombre) {
-        els.studentLine.textContent = `${state.student.nombre} ${state.student.apellido} · ${state.student.correo} · ${state.student.attempt_id}`;
+        els.studentLine.textContent = `${state.student.nombre} ${state.student.apellido} · ${state.student.correo}`;
       }
       buildNav();
       renderQuestion();
@@ -2175,7 +2175,8 @@
     $("btn-finish").addEventListener("click", finalize);
     $("btn-download-backup").addEventListener("click", () => {
       const payload = window.FINAL_PAYLOAD || { student: state.student, rows: rowsForExport() };
-      download(`respaldo_diagnostico_m1_${state.student.attempt_id}.json`, JSON.stringify(payload, null, 2), "application/json;charset=utf-8");
+      const rows = payload.rows || rowsForExport();
+      download(`respaldo_diagnostico_m1_${state.student.attempt_id}.csv`, toCSV(rows), "text/csv;charset=utf-8");
     });
     $("btn-close").addEventListener("click", () => {
       try { window.close(); } catch (e) {}
