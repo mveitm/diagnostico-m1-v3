@@ -26,13 +26,21 @@ function doPost(e) {
 
 function readPayload_(e) {
   const raw = (e && e.postData && e.postData.contents) ? e.postData.contents : '';
-  if (!raw) return {};
+  const paramPayload = e && e.parameter && e.parameter.payload ? e.parameter.payload : '';
+  const candidate = paramPayload || raw;
+  if (!candidate) return {};
   try {
-    return JSON.parse(raw);
+    return JSON.parse(candidate);
   } catch (_) {
     try {
-      return JSON.parse(decodeURIComponent(raw));
+      return JSON.parse(decodeURIComponent(candidate));
     } catch (_) {
+      if (candidate.indexOf('payload=') === 0) {
+        const body = candidate.slice(8);
+        try {
+          return JSON.parse(decodeURIComponent(body.replace(/\+/g, ' ')));
+        } catch (_) {}
+      }
       throw new Error('No se pudo interpretar el payload recibido.');
     }
   }
