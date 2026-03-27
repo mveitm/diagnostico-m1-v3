@@ -1648,7 +1648,7 @@
   }
 ];
     window.APP_CONFIG = {
-      VERSION: "v22-mobile-logo-fetchfix",
+      VERSION: "v22b-logo-size-fix",
       SHEETS_WEB_APP_URL: "https://script.google.com/macros/s/AKfycbwoK_iLCt_qF--Vsmlo7D_TUcpSM32JnHJs9zAuX1H4jOBvDPtQ8yQVug0AA2UBlFymQg/exec",
       TIME_LIMIT_MINUTES: 100
     };
@@ -1675,6 +1675,7 @@
     .brand{display:flex;align-items:center;gap:12px;margin-bottom:16px}
     .brand-mark{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--primary),var(--accent))}
     .subtle{color:var(--muted)} .small{font-size:14px}
+    .brand > div:last-child{min-width:0;flex:1}
     .grid{display:grid;gap:14px} .grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
     label{display:block;font-weight:600;margin-bottom:6px}
     input[type="text"], input[type="email"]{width:100%;padding:13px 14px;border-radius:12px;border:1px solid var(--line);font:inherit;color:var(--ink);background:#fff}
@@ -1728,7 +1729,7 @@
       .grid.two, .summary-grid{grid-template-columns:1fr}
       .nav-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
       .question-image img{max-width:82vw}
-      .brand-logo{width:165px;max-width:72vw}
+      .brand-logo{width:88px;max-width:24vw}
       .table-scroll table{min-width:0}
       .card{padding:16px}
       button{width:100%}
@@ -1895,7 +1896,7 @@
   </div>
 
   <script>
-    const STORAGE_KEY = "diag_paesm1_final_v22";
+    const STORAGE_KEY = "diag_paesm1_final_v22b";
     const state = {
       current: 0,
       startedAt: null,
